@@ -22,7 +22,6 @@ SOFTWARE_PACKAGES=(
     "btop"
     "brightnessctl" # Alternative: "light"
     "colorthief" # Python package or CLI tool
-    "conky"
     "curl"
     "dunst"
     "eww"
@@ -64,8 +63,6 @@ SOFTWARE_PACKAGES=(
     "ripgrep" # For 'rg'
     "rofi"
     "slurp"
-    "spotify"
-    "steam"
     "swayfx"
     "swayidle"
     "swaylock"
