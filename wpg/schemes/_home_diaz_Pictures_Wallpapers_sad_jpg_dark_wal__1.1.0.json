@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/diaz/Pictures/Wallpapers/sad.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#091A1D",
+        "foreground": "#d3d1da",
+        "cursor": "#d3d1da"
+    },
+    "colors": {
+        "color0": "#091A1D",
+        "color1": "#204C5F",
+        "color2": "#4B5254",
+        "color3": "#626569",
+        "color4": "#8A777F",
+        "color5": "#6A738B",
+        "color6": "#9D99A2",
+        "color7": "#d3d1da",
+        "color8": "#939298",
+        "color9": "#204C5F",
+        "color10": "#4B5254",
+        "color11": "#626569",
+        "color12": "#8A777F",
+        "color13": "#6A738B",
+        "color14": "#9D99A2",
+        "color15": "#d3d1da"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/diaz/.config/wpg/wallpapers/city.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0F1D21",
+        "foreground": "#c1c8cd",
+        "cursor": "#c1c8cd"
+    },
+    "colors": {
+        "color0": "#0F1D21",
+        "color1": "#51666A",
+        "color2": "#A84D4C",
+        "color3": "#99827E",
+        "color4": "#58758A",
+        "color5": "#6E8D97",
+        "color6": "#6999C0",
+        "color7": "#c1c8cd",
+        "color8": "#878c8f",
+        "color9": "#51666A",
+        "color10": "#A84D4C",
+        "color11": "#99827E",
+        "color12": "#58758A",
+        "color13": "#6E8D97",
+        "color14": "#6999C0",
+        "color15": "#c1c8cd"
+    }
+}

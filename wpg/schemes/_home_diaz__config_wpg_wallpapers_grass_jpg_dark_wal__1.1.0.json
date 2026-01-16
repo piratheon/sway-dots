@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/diaz/.config/wpg/wallpapers/grass.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#1f1f1f",
+        "foreground": "#dedfdf",
+        "cursor": "#dedfdf"
+    },
+    "colors": {
+        "color0": "#1f1f1f",
+        "color1": "#BAA874",
+        "color2": "#8E938E",
+        "color3": "#A1A49A",
+        "color4": "#B1B6B3",
+        "color5": "#C2C0B3",
+        "color6": "#BEC2C1",
+        "color7": "#dedfdf",
+        "color8": "#9b9c9c",
+        "color9": "#BAA874",
+        "color10": "#8E938E",
+        "color11": "#A1A49A",
+        "color12": "#B1B6B3",
+        "color13": "#C2C0B3",
+        "color14": "#BEC2C1",
+        "color15": "#dedfdf"
+    }
+}

@@ -1,0 +1,1817 @@
+exit
+yay
+upd
+nano /home/chafiq/.config/nushell/config.nu
+exit
+clpbrd
+clpbrd ~/.config/fish/config.fish
+nano ./.config/nushell/config.nu
+rm ./.config/nushell/config.nu
+nano ./.config/nushell/config.nu
+rm ./.config/nushell/config.nu
+nano ./.config/nushell/config.nu
+rm .profile
+touch ~/.profile
+nano ./.config/nushell/config.nu
+exit
+nano ./.config/nushell/config.nu
+clpbrd ./.config/nushell/config.nu
+rm ./.config/nushell/config.nu
+nano ./.config/nushell/config.nu
+rmpkg
+exit
+rm ./.config/nushell/config.nu
+nano ./.config/nushell/config.nu
+commandline --help 
+rm ./.config/nushell/config.nu
+nano ./.config/nushell/config.nu
+exit
+rm ./.config/nushell/config.nu
+nano ./.config/nushell/config.nu
+rm ./.config/nushell/config.nu
+nano ./.config/nushell/config.nu
+exit
+ps --help
+exit
+ip addr
+~/Applications/1.bin/as-server
+clear
+fastfetch
+clear
+fastfetch
+yay -R st
+yay -R sterminal
+yay -Rs st terminal
+clear && fastfetch
+clear ; fastfetch
+clear ; fastfetch --config neofetch -l arch2
+rm ./.config/nushell/config.nu
+touch ./.config/nushell/config.nu
+echo "fastfetch --config neofetch -l arch2" >> ./.config/nushell/config.nu
+cat ./.config/nushell/config.nu
+echo "fastfetch --config neofetch -l arch2" > ./.config/nushell/config.nu
+echo {fastfetch --config neofetch -l arch2} > ./.config/nushell/config.nu
+cat ./.config/nushell/config.nu
+ori how to add a  new line to a file using echo on nushell?
+echo -n "fastfetch --config neofetch -l arch2" > ./.config/nushell/config.nu
+echo "fastfetch --config neofetch -l arch2" | save ./.config/nushell/config.nu
+echo "fastfetch --config neofetch -l arch2" | save -f ./.config/nushell/config.nu
+cat ./.config/nushell/config.nu
+echo "$env.config = { show_banner: false }" | save --append ./.config/nushell/config.nu
+cat ./.config/nushell/config.nu
+nano ./.config/nushell/config.nu
+cd ~/Others/gits/
+git clone https://github.com/Mibea/Hatter
+sudo mkdir /usr/share/legacypatch
+sudo cp /usr/bin/ghostty /usr/share/legacypatch/ghostty
+nano   /etc/pacman.d/hooks/ghostty-legacy.hook
+mkdir /etc/pacman.d/hooks/
+sudo mkdir /etc/pacman.d/hooks/
+nano   /etc/pacman.d/hooks/ghostty-legacy.hook
+sudo nano   /etc/pacman.d/hooks/ghostty-legacy.hook
+sudo nano /usr/local/bin/fix-ghostty.sh
+chmod +x /usr/local/bin/fix-ghostty.sh
+sudo chmod +x /usr/local/bin/fix-ghostty.sh
+sudo nano /etc/pacman.conf
+ls
+yay -Syu
+git clone https://github.com/Mibea/Hatter
+./install.sh
+cd ~/Downloads/Hatter-main/
+./install.sh -u
+~/Applications/1.bin/EvolveCore
+clear ; fastfetch --config neofetch -l arch2
+sudo ./kill_unnecessary_processes.sh
+clear ; fastfetch --config neofetch -l arch2
+btop
+clear ; fastfetch --config neofetch -l arch2
+nu -v
+clear ; fastfetch --config neofetch -l arch2
+sudo ./kill_unnecessary_processes.sh
+clear ; fastfetch --config neofetch -l arch2
+gnedit ~/.config/nushell/config.nu
+nu -v
+nu --version
+cat ./.config/nushell/config.nu
+mkdir --help
+yay
+cat ./ghostty.c
+history 
+cat ~/.cache/wal/sequences
+wal
+fastfetch
+mv  ~/.config/nushell/config.nu ~/.config/nushell/config.nu.bak
+fastfetch
+mv  ~/.config/nushell/config.nu.bak ~/.config/nushell/config.nu
+ls
+upd
+gnome-text-editorr
+gnome-text-editor
+gnedit ~/.config/nushell/config.nu
+adb reboot
+yay -s ori
+yay -S ori
+yay -S ORI
+yay -S clpbrd
+cd ~/Development/
+mv ORI ORI-bak
+git clone https://gitlab.archlinux.org/piratheon/
+git clone https://gitlab.archlinux.org/piratheon/ORI
+cd ori
+mv ORI ori
+cd ori
+namcap PKGBUILD<\n>namcap *.pkg.tar.*
+yay -S namcp
+ssh aur@aur.archlinux.org
+ssh aur@aur.archlinux.org help
+ssh aur@aur.archlinux.org list-repos
+yay -S namcap
+namcap PKGBUILD<\n>namcap *.pkg.tar.*
+tree
+namcap aur/PKGBUILD<\n>namcap *.pkg.tar.*
+nano aur/PKGBUILD
+namcap aur/PKGBUILD<\n>namcap *.pkg.tar.*
+nano aur/PKGBUILD
+namcap aur/PKGBUILD<\n>namcap *.pkg.tar.*
+nano aur/PKGBUILD
+c
+namcap aur/PKGBUILD<\n>namcap *.pkg.tar.*
+makepkg -si
+cd aur
+makepkg -si
+cp PKGBUILD ../
+cd ..
+makepkg -si
+rm PKGBUILD
+cd aur
+nano aur/PKGBUILD
+nano PKGBUILD
+makepkg -si
+ls
+nano PKGBUILD
+makepkg -si
+nano PKGBUILD
+makepkg -si
+nano PKGBUILD
+cd ~/Development/ori
+rm -rf .git
+git switch --create main<\n>git add README.md<\n>git commit -m "add README"<\n>git push --set-upstream origin main
+git init
+git clone git@gitlab.archlinux.org:piratheon/ori.git<\n>cd ori<\n>git switch --create main<\n>touch README.md<\n>git add README.md<\n>git commit -m "add README"<\n>git push --set-upstream origin main
+git clone git@gitlab.archlinux.org:piratheon/ori.git<\n>cd ori
+ssh-keygen 
+cat /home/chafiq/.ssh/aur-gitlab.pub
+git clone git@gitlab.archlinux.org:piratheon/ori.git<\n>cd ori
+cd ..
+cd ~/Development/ori
+namcap aur/PKGBUILD && namcap *.pkg.tar.*
+namcap aur/PKGBUILD ; namcap *.pkg.tar.*
+makepkg -si
+cd aur
+makepkg -si
+yay -R ORI
+makepkg -si
+namcap PKGBUILD<\n>namcap *.pkg.tar.*
+makepkg -si ; namcap PKGBUILD ; namcap *.pkg.tar.*
+rm *.zst ; rm -rf src ; makepkg -si ; namcap PKGBUILD ; namcap *.pkg.tar.*
+sha256sum v0.5.tar.gz
+rm *.zst ; rm -rf src ; makepkg -si ; namcap PKGBUILD ; namcap *.pkg.tar.*
+makepkg -si ; namcap PKGBUILD ; namcap *.pkg.tar.*
+rm *.zst ; rm -rf src ; makepkg -si ; namcap PKGBUILD ; namcap *.pkg.tar.*
+makepkg -si ; namcap PKGBUILD ; namcap *.pkg.tar.*
+namcap PKGBUILD ; namcap *.pkg.tar.*
+cd ~/Development/ori
+cd aur
+rm *.zst ; rm -rf src 
+sha256sum /home/chafiq/Downloads/ori-0.5.zip
+cd ..
+git switch --create main<\n>git add *<\n>git commit -m "First AUR commit"<\n>git push --set-upstream origin main
+rm .git
+rm -f .git
+rm -rf .git
+git init --initial-branch=main<\n>git remote add origin git@gitlab.archlinux.org:piratheon/ori.git<\n>git add .<\n>git commit -m "Initial commit"<\n>git push --set-upstream origin main
+cd ~/Development/ori
+tree
+cat .gitignore
+cd aur ; namcap PKGBUILD ; namcap *.pkg.tar.*
+nano PKGBUILD
+namcap PKGBUILD ; namcap *.pkg.tar.*
+ls
+makepkg -si ; namcap PKGBUILD ; namcap *.pkg.tar.*
+rm ./*gz
+makepkg -si ; namcap PKGBUILD ; namcap *.pkg.tar.*
+sha256sum ./*.gz
+nano PKGBUILD
+clear
+cd ..
+clear
+tree
+cd aur ; namcap PKGBUILD ; namcap *.pkg.tar.*
+cd aur ;makepkg -si; namcap PKGBUILD ; namcap *.pkg.tar.*
+makepkg -si; namcap PKGBUILD ; namcap *.pkg.tar.*
+git init<\n>git remote add origin ssh://aur@aur.archlinux.org/ori.git<\n>git add PKGBUILD .SRCINFO ori-v0.5.tar.gz<\n>git commit -m "Initial commit: ORI 0.5"
+tree
+tree ..
+ssh -T aur@aur.archlinux.org<\n>ssh -T aur@aur.archlinux.org
+ssh -T aur@aur.archlinux.org
+ssh aur@aur.archlinux.org help
+makepkg --printsrcinfo > .SRCINFO<\n>git add PKGBUILD .SRCINFO ori-v0.5.tar.gz<\n>git commit -m "Initial commit: ORI 0.5"<\n>git push origin master
+tree
+makepkg --printsrcinfo | save -f .SRCINFO
+makepkg --printsrcinfo 
+git add PKGBUILD .SRCINFO ori-v0.5.tar.gz<\n>git commit -m "Initial commit: ORI 0.5"<\n>git push origin master
+yay -S ori
+yay -R ori
+yay -S ori
+yay -S ori-git
+yay -s piratheon
+yay -S ori
+yay -S ori-git
+yay -s ori
+yay -S aur/ori
+yay -S ori
+ori
+clear
+ori
+scrcpy --turn-screen-off
+scrcpy 
+nmap http://vps-468858a8.vps.ovh.ca/
+nmap -v -A http://vps-468858a8.vps.ovh.ca/
+nmap -v -A vps-468858a8.vps.ovh.ca
+nmap -v -A vps-468858a8.vps.ovh.ca --system-dns
+yay -S nikto
+yay -Sy nikto
+nikto -h vps-468858a8.vps.ovh.ca 
+nikto -h ovh.ca 
+exit
+nikto -h 158.69.217.153
+ori help me exploit this ip novnc if possible, i have nikto and nmap installed: 158.69.217.153
+uname -a<\n>cat /etc/os-release 2>/dev/null || echo "no /etc/os-release"
+chmod +x /home/chafiq/Downloads/Milk_inside_a_bag_of_milk_inside_a_bag_of_milk_[Linux,_LinuxRuleZ!].sh
+/home/chafiq/Downloads/Milk_inside_a_bag_of_milk_inside_a_bag_of_milk_[Linux,_LinuxRuleZ!].sh
+update
+update --help
+upd
+adb reboot
+adb kill-server
+sudo ./kill_unnecessary_processes.sh
+adb logcat
+as-server 
+adb reboot
+scrcpy --otg
+adb shell
+adb shell am start -n com.samsung.android.app.dressrom/.presentation.genwallpaper.ui.GenWallpaperActivity
+adb shell am start -n com.samsung.android.app.dressrom/.presentation.genwallpaper .ui.GenWallpaperActivity
+adb shell am start -n com.samsung.android.app.dressrom/.presentation.genwallpaper.ui.GenWallpaperActivity
+adb shell am start -n com.samsung.android.app.dressroom/.presentation.genwallpaper.ui.GenWallpaperActivity
+adb shell am start -n com.samsung.android.app.dressrom/.presentation.genwallpaper.ui.GenWallpaperActivity
+adb shell am start -n com.samsung.android.app.dressroom/.presentation.genwallpaper.ui.GenWallpaperActivity
+systemd-analyze --blam
+systemd-analyze -blam
+systemd-analyze blame
+bat
+numademo 
+systemctl gdm restary
+systemctl restart gdm
+nano ~/.config/ghostty/config
+nano ~/.config/sway/config.d/theme
+pkill sway
+btop
+blender
+ghostty --help
+pkill sway
+nano ~/.config/sway/config.d/theme
+nano ~/.config/ghostty/config
+exit
+adb shell
+adb restart
+adb reboot
+ori --version
+as-server 
+yay -s kkrieger
+yay -S kkrieger
+kkrieger 
+pkill wine
+pkill kkl
+pkill kkr
+adb reboot
+heimdall 
+adb logcat
+steam 
+yay -s nosteam
+yay -s steam
+yay -S aur/steam-tui
+ranger
+yay -S aur/steam-tui
+yay -piratheon
+yay -s piratheon
+yay -s ori ai
+yay -s ori tui
+yay -S gitbash
+yay -S gitbash-tui
+yay -s gitbash
+yay -s git bash
+yay -s ori tui
+all 
+zxit
+exit
+yay -s porn
+git clone git@gitlab.archlinux.org:piratheon/ori.git<\n>cd ori
+cd /home/chafiq/Development/Orion
+nano ~/.config/ghostty/config
+./orion/build/orion
+ls ./orion/build
+ls .
+ls ..
+../
+cd Orion/
+cd orion/
+ls
+cp config.ini build
+cd build/
+ls
+./orion
+./orion hi
+sudo cp ~/Applications/1.bin/koboldcpp-linux-x64-oldpc /usr/bin
+koboldcpp-linux-x64-oldpc -h
+nano config.ini
+./orion hi
+koboldcpp-linux-x64-oldpc 
+koboldcpp-linux-x64-oldpc  --fail-safe -m /home/chafiq/Downloads/WeiboAI.VibeThinker-1.5B.f16.gguf
+koboldcpp-linux-x64-oldpc  --fail-safe --model /home/chafiq/Downloads/WeiboAI.VibeThinker-1.5B.f16.gguf
+cd $HOME
+cd $env.HOME
+sudo ./kill_unnecessary_processes.sh
+nano config.ini
+./orion hi
+nano config.ini
+./orion hi
+nano config.ini
+./orion hi
+koboldcpp-linux-x64-oldpc  --failsafe --model /home/chafiq/Downloads/WeiboAI.VibeThinker-1.5B.f16.gguf
+./orion hi
+nano config.ini
+cat ../config.ini
+nano config.ini
+./orion
+../build.sh
+cd ..
+./build.sh
+cd build/
+./orion
+# when i "execute koboldcpp-linux-x64-oldpc  --failsafe --model /home/chafiq/Downloads/WeiboAI.VibeThinker-1.5B.f16.gguf" it works fine btw
+./orion
+cat ./orion/build/kbld-1763494379.log
+cat ./orion/build/kbld-1763494592.log
+cat kbld-1763496345.log
+yay -s antigravity
+cat kbld-1763496345.log
+cat kbld-1763499287.log
+echo \m
+echo gggg\m
+echo gggg \n
+yay -s antigravity
+yay -S aur/antigravity-bin
+nano t.sh
+chmod +x t.sh
+./t.sh
+rm ./t.sh
+koboldcpp-linux-x64-oldpc  --failsafe --model /home/chafiq/Downloads/WeiboAI.VibeThinker-1.5B.f16.gguf
+animate 
+androiddeployqt6 
+python -c 'print("hi^m")'
+python -c 'print("hi"^m)'
+python -c 'print("hi"\m)'
+python -c 'print("hi"\n)'
+python -c 'print("hi\n")'
+python -c 'print("hi\m")'
+ping google.com
+exit
+upd
+nano ~/.config/ghostty/config
+yay -Syu
+nano ~/.config/ghostty/config
+cp /usr/share/fastfetch/presets/neofetch.jsonc ~/.config/fastfetch/config-improved.jsonc
+nvim ~/.config/fastfetch/config-improved.jsonc
+gnedit ~/.config/fastfetch/config-improved.jsonc
+gnome-text-editor  ~/.config/fastfetch/config.jsonc
+scrcpy --otg
+clear
+upd
+yay -Syu
+fastfetch
+ori --version
+yay -S distrobox
+systemctl start docker
+pkill anti
+yay -s gnome settings permissions
+yay -s settings permissions
+yay -s permissions
+yay -S flatseal
+as-server 
+ip addr
+as-server 
+as-cmd -b 10.226.96.212
+as-server 
+as-cmd -b 192.168.60.78
+as-cmd -b 
+as-cmd 
+as-cmd --bind=192.168.60.78
+as-cmd -b=192.168.60.78
+as-server 
+koboldcpp-linux-x64-oldpc  --failsafe --model /home/chafiq/Downloads/WeiboAI.VibeThinker-1.5B.f16.gguf
+yay -R antigravity-bin
+yay -Sy antigravity
+/opt/antigravity/antigravity
+rm ~/.local/share/Google/AndroidStudio2025.1.4/
+pkill anti
+rm -rf ~/.local/share/Google/AndroidStudio2025.1.4/
+rm ~/.config/Antigravity/
+rm -rf ~/.config/Antigravity/
+/opt/antigravity/antigravity
+/opt/antigravity/antigravity  --enable-unsafe-swiftshader
+./build.sh
+./build/ori
+mkdir bkp
+git clone git@gitlab.archlinux.org:piratheon/ori.git ori-src<\n>cd ori-src
+cd ~/Development/ori
+sudo npm install -g @google/gemini-cli
+./ori-src/build/ori -g
+./ori-src/build/ori --gui
+rm /ori-src/build/*
+rm ./ori-src/build/*
+rm -rf ./ori-src/build/*
+./ori-src/build.sh
+cd ori-src/
+./build.sh
+./build/ori --gui
+./build/ori 
+gemini 
+cat ~/Applications/
+cat ~/Applications/1.bin/EvolveCore
+gemini 
+cd ori
+cd ..
+bash
+ls /var/lib/AccountsService/users
+sudo ls /var/lib/AccountsService/users
+sudo rm /var/lib/AccountsService/users/root
+sudo cat /var/lib/AccountsService/users/chafiq
+./build/ori --gui
+EvolveCore 
+cd Marble-shell-theme/
+./install.sh -h
+python ./install.py 
+python ./install.py -h
+sudo python install.py --gdm --purple --filled --gdm-image /home/chafiq/Pictures/wallpapers/17005-3840x2160-desktop-4k-mountain-wallpaper-image.jpg --gdm-blur=40 --gdm-darken=30
+nano ~/.config/ghostty/config
+yay -Syu
+./.icons/Hatter-update.sh
+yay -s rowaita
+yay -s adwaita
+yay -s adwaita improved icons
+yay -s papirus improved icons
+vlc
+vlc -h
+vlc --full-help
+clear
+vlc --full-help
+vlc --skin /home/chafiq/.config/vlc/iphone3g.vlt<\n>
+vlc --skin /home/chafiq/.config/vlc/iphone3g.vlt
+yay -S vlc-plugin-skins2
+yay -s vlc skins2
+yay -S vlc-gui-skins2
+yay -Syu
+vlc --skin /home/chafiq/.config/vlc/iphone3g.vlt
+vlc --intf skins2   
+vlc --intf skins2   /home/chafiq/Music/AUD-20250823-WA0038.m4a<\n>
+vlc --intf skins2 /home/chafiq/Videos/Empire\ Of\ The\ Sun\ -\ Walking\ On\ A\ Dream\ \(Official\ Music\ Video\)\ [eimgRedLkkU].webm<\n><\n>
+vlc --intf skins2 /home/chafiq/Videos/Empire\ Of\ The\ Sun\ -\ Walking\ On\ A\ Dream\ \(Official\ Music\ Video\)\ [eimgRedLkkU].webm
+vlc --intf skins2 "/home/chafiq/Videos/Empire\ Of\ The\ Sun\ -\ Walking\ On\ A\ Dream\ \(Official\ Music\ Video\)\ [eimgRedLkkU].webm"
+vlc --intf skins2 /home/chafiq/Videos/من_فن_العد_إلى_حساب_الاحتمالات.mp4<\n><\n>
+nmtui 
+as-server 
+cd Marble-shell-theme/
+sudo python install.py --gdm --purple --filled --gdm-image /home/chafiq/Pictures/wallpapers/17005-3840x2160-desktop-4k-mountain-wallpaper-image.jpg --gdm-blur=40 --gdm-darken=30
+systemctl restart gdm
+uname -a
+uname 
+wine ./IntroGame.exe
+yay -s homebrew
+yay -s freebsd
+yay -s orbstack
+yay -s orb stack
+yay -s mingw
+yay -s pentest box
+yay -s pentest 
+yay -s samsung
+yay -s hp
+yay -s hp pc
+yay -s odin
+yay -S rust cargo
+chmod +x /home/chafiq/Development/heimdall-gtk/heimdall-gtk/target/debug/heimdall-gtk
+/home/chafiq/Development/heimdall-gtk/heimdall-gtk/target/debug/heimdall-gtk
+cd ../ori/
+chmod +x ./flash.sh
+cd ~/Others/phone-roms/
+cd ./recovery/
+adb reboot recovery
+adb reboot download
+./flash.sh
+adb reboot recovery
+./flash.sh
+adb reboot download
+./flash.sh
+chmod +x ./flash.sh
+./flash.sh
+adb reboot recovery
+scrcpy --otg
+yay -Syu libdecor
+yay -Sy libdecor
+yay -S libdecor
+yay -Syu
+zix
+scrcpy --otg
+scrcpy --new-dispplay
+scrcpy --new-display
+cat ~/Development/ori/ori-0.5-src/orpm
+cd ~/Marble-shell-theme/
+sudo python install.py --gdm --green --filled --gdm-image /home/chafiq/Pictures/wallpapers/silas-baisch.jpg --gdm-blur=40 --gdm-darken=30
+EvolveCore 
+nmtui 
+ghostty 
+pkill wayfire
+ghostty --help
+scrcpy 
+pkill sway
+adb reboot recovery
+adb reboot 
+cd ~/Development/Nocturne-Vault/
+bash scripts/debug-run.sh
+chmod +x scripts/*.sh
+scripts/debug-run.sh
+bash scripts/build.sh src/build-index Release
+src/build-index/index_demo
+bash scripts/build.sh src/build-index Release
+adb reboot 
+adb logcat
+adb reboot 
+bash scripts/build.sh src/build-index Release
+src/build-index/index_demo
+bash scripts/build.sh src/build-advanced Release
+src/build-advanced/advanced_tokenizer_demo
+bash scripts/build.sh src/build-query Release
+src/build-query/query_parser_demo
+bash scripts/build.sh src/build-crud Release
+src/build-crud/nocturne_app
+bash scripts/build.sh src/build-crud Release && src/build-crud/nocturne_app
+bash scripts/build.sh src/build-crud Release
+src/build-crud/nocturne_app
+bash scripts/build.sh src/build-crud Release
+src/build-crud/nocturne_app
+yay -S turbo-vision2
+cat >> /home/chafiq/Development/Nocturne-Vault/src/CMakeLists.txt << 'EOF'
+yay -S turbo-vision
+# TUI library (Phase 3)
+add_library(tuilib<\n>    tui/NocturneTUI.cpp<\n>)
+target_include_directories(tuilib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_link_libraries(tuilib PRIVATE core)
+add_executable(nocturne_tui main_tui.cpp)
+target_link_libraries(nocturne_tui PRIVATE tuilib core)
+EOF
+yay -s turbo vision
+bash -c 'cat >> /home/chafiq/Development/Nocturne-Vault/src/CMakeLists.txt << EOF<\n><\n># TUI library (Phase 3)<\n>add_library(tuilib<\n>    tui/NocturneTUI.cpp<\n>)<\n>target_include_directories(tuilib PUBLIC \${CMAKE_CURRENT_SOURCE_DIR})<\n>target_link_libraries(tuilib PRIVATE core)<\n><\n>add_executable(nocturne_tui main_tui.cpp)<\n>target_link_libraries(nocturne_tui PRIVATE tuilib core)<\n>EOF<\n>'
+yay -S aur/tvision-git
+bash scripts/build.sh src/build-tui Release
+cd src/build-tui
+clpbrd $(pwd)
+clpbrd (pwd)
+ppw
+pwd
+cd ../..
+clear
+/home/chafiq/Development/Nocturne-Vault/src/build-tui
+./nocturne_app
+./index_demo
+chmod +x ./nocturne_tui
+./nocturne_tui
+src/build-tui/nocturne_tui
+echo '=== pkg-config check ===' && pkg-config --modversion tvision 2>/dev/null || echo 'pkg-config: not found for tvision' && echo; echo '=== pkg-config cflags/libs ===' && pkg-config --cflags --libs tvision 2>/dev/null || true && echo; echo '=== check /usr/include dirs ===' && ls /usr/include | grep -i tvision || echo 'no tvision dir in /usr/include' && echo; echo '=== find tvision headers (usr/include, usr/local/include) ===' && find /usr/include /usr/local/include -maxdepth 3 -type d -iname 'tvision*' -print 2>/dev/null || true && echo; echo '=== find libs matching tvision ===' && find /usr/lib /usr/local/lib -maxdepth 2 -type f -iname '*tvision*' -print 2>/dev/null || true && echo; echo '=== ldconfig lookup ===' && ldconfig -p 2>/dev/null | grep -i tvision || echo 'ldconfig: no tvision libs found'
+pkg-config --modversion tvision 2>/dev/null
+pkg-config --cflags --libs tvision 2>/dev/null
+find /usr/include /usr/local/include -maxdepth 3 -type d -iname 'tvision*' -print 2>/dev/null
+find /usr/lib /usr/local/lib -maxdepth 2 -type f -iname '*tvision*' -print 2>/dev/null
+ldconfig -p 2>/dev/null | grep -i tvision || true
+find /usr/include /usr/local/include -maxdepth 3 -type d -iname 'tvision*' -print 2>/dev/null
+find /usr/lib /usr/local/lib -maxdepth 2 -type f -iname '*tvision*' -print 2>/dev/null
+bash -lc "pkg-config --modversion tvision 2>/dev/null || echo 'pkg-config: tvision not found'; pkg-config --cflags --libs tvision 2>/dev/null || true; find /usr/include /usr/local/include -maxdepth 3 -type d -iname 'tvision*' -print 2>/dev/null; find /usr/lib /usr/local/lib -maxdepth 2 -type f -iname '*tvision*' -print 2>/dev/null; ldconfig -p 2>/dev/null | grep -i tvision || true"
+bash -lc "ls -la /usr/include/tvision"
+bash -lc "sed -n '1,240p' /usr/include/tvision/tv.h"
+bash -lc "sed -n '1,240p' /usr/include/tvision/app.h"
+bash -lc "grep -n 'class TApplication' -n /usr/include/tvision/*.h /usr/include/tvision/* 2>/dev/null || true"
+bash -lc "sed -n '322,640p' /usr/include/tvision/app.h"
+bash -lc "grep -R "TApplication" /usr/include/tvision -n || true"
+bash -lc "sed -n '640,1200p' /usr/include/tvision/app.h"
+bash -lc 'grep -R "run(" /usr/include/tvision -n 2>/dev/null || true'
+bash -lc "sed -n '240,340p' /usr/include/tvision/app.h"
+bash -lc "grep -n \"class TWindow\" /usr/include/tvision -R || true"
+adb reboot 
+bash -lc "sed -n '960,1120p' /usr/include/tvision/views.h"
+bash -lc 'grep -R "virtual void init\(" /usr/include/tvision -n 2>/dev/null || true'
+bash -lc "sed -n '1,240p' /usr/include/tvision/tv.h | sed -n '1,140p'"
+bash scripts/build.sh src/build-tui Release 2>&1 | tail -80
+bash scripts/build.sh src/build-tui Release out+err> /tmp/build.log ; tail -120 /tmp/build.log
+cat /tmp/build.log | tail -150
+bash scripts/build.sh src/build-tui Release out+err> /tmp/build.log; tail -150 /tmp/build.log
+cat /tmp/build.log | tail -200
+bash scripts/build.sh src/build-tui Release out+err> /tmp/build.log; tail -50 /tmp/build.log
+src/build-tui/nocturne_tui < /dev/null
+~/Development/Nocturne-Vault/src/build-tui/nocturne_tui 
+bash scripts/build.sh src/build-tui Release out+err> /tmp/build.log; tail -100 /tmp/build.log
+cat /tmp/build.log
+bash scripts/build.sh src/build-tui Release out+err> /tmp/build.log; tail -80 /tmp/build.log
+cat /tmp/build.log | tail -120
+bash scripts/build.sh src/build-tui Release out+err> /tmp/build.log; tail -50 /tmp/build.log
+grep error /tmp/build.log
+bash scripts/build.sh src/build-tui Release out+err> /tmp/build.log; tail -50 /tmp/build.log
+cat /tmp/build.log | tail -80
+bash scripts/build.sh src/build-tui Release out+err> /tmp/build.log; tail -30 /tmp/build.log
+grep -E "error|Error" /tmp/build.log | head -30
+cat /tmp/build.log | tail -120
+bash /home/chafiq/Development/Nocturne-Vault/scripts/build.sh /home/chafiq/Development/Nocturne-Vault/src/build-tui Release &> /tmp/build.log && tail -100 /tmp/build.log
+bash /home/chafiq/Development/Nocturne-Vault/scripts/build.sh /home/chafiq/Development/Nocturne-Vault/src/build-tui Release out+err> /tmp/build.log; tail -100 /tmp/build.log
+cat /tmp/build.log | tail -120
+grep -m 5 "class TWindow" /usr/include/tvision/*.h
+head -50 /usr/include/tvision/tv.h | grep -E "^#include"
+head -50 /usr/include/tvision/tv.h
+cat /usr/include/tvision/tv.h | grep "include" | head -30
+cat /tmp/build.log | head -50
+cat > /tmp/test_tvision.cpp << 'EOF'
+#include <tvision/tv.h>
+#include <iostream>
+int main() {<\n>    std::cout << "TWindow type available\n";<\n>    return 0;<\n>}
+EOF
+cd /tmp && g++ -std=c++17 -I/usr/include test_tvision.cpp -L/usr/lib -ltvision 2>&1 | head -30
+cd /tmp; g++ -std=c++17 -I/usr/include test_tvision.cpp -L/usr/lib -ltvision 2>&1 | head -30
+cd /tmp; g++ -std=c++17 -I/usr/include test_tvision.cpp -L/usr/lib -ltvision out+err> /tmp/compile.log; cat /tmp/compile.log | head -30
+rm -rf /home/chafiq/Development/Nocturne-Vault/src/build-tui; mkdir -p /home/chafiq/Development/Nocturne-Vault/src/build-tui
+rm -r /home/chafiq/Development/Nocturne-Vault/src/build-tui; mkdir /home/chafiq/Development/Nocturne-Vault/src/build-tui
+bash /home/chafiq/Development/Nocturne-Vault/scripts/build.sh /home/chafiq/Development/Nocturne-Vault/src/build-tui Release out+err> /tmp/build2.log; tail -100 /tmp/build2.log
+cat /tmp/build2.log | tail -100
+cd /home/chafiq/Development/Nocturne-Vault; bash scripts/build.sh src/build-tui Release out+err> /tmp/build3.log; tail -100 /tmp/build3.log
+cat /tmp/build3.log | tail -100
+head -30 /home/chafiq/Development/Nocturne-Vault/src/tui/NocturneTUI_tvision.cpp
+grep -n "namespace Nocturne" /home/chafiq/Development/Nocturne-Vault/src/tui/NocturneTUI.h
+grep "target_compile_definitions" /home/chafiq/Development/Nocturne-Vault/src/CMakeLists.txt
+cd /home/chafiq/Development/Nocturne-Vault/src/build-tui; cat CMakeCache.txt | grep -i tvision | head -20
+cd /home/chafiq/Development/Nocturne-Vault/src/build-tui; grep -i "include" CMakeFiles/tuilib.dir/flags.make | head -20
+cat /tmp/build3.log | head -40
+cd /home/chafiq/Development/Nocturne-Vault; rm -r src/build-tui; mkdir src/build-tui; bash scripts/build.sh src/build-tui Release out+err> /tmp/build4.log; tail -80 /tmp/build4.log
+cat /tmp/build4.log | tail -100
+cat /tmp/build4.log | grep "CXX_DEFINES" | tail -1
+cd /tmp; g++ -std=c++17 -I/usr/include test_tvision_only.cpp out+err> /tmp/compile2.log; cat /tmp/compile2.log
+cd /home/chafiq/Development/Nocturne-Vault; rm -r src/build-tui; mkdir src/build-tui; bash scripts/build.sh src/build-tui Release 2>&1 | grep -A 5 -B 5 "HAVE_TVISION"
+cd /home/chafiq/Development/Nocturne-Vault; bash scripts/build.sh src/build-tui Release out+err> /tmp/build5.log; cat /tmp/build5.log | grep "HAVE_TVISION"
+cat /tmp/build5.log | grep "HAVE_TVISION"
+cd /home/chafiq/Development/Nocturne-Vault; bash scripts/build.sh src/build-tui Release out+err> /tmp/build6.log; cat /tmp/build6.log | grep "pragma message"
+cat /tmp/build6.log | head -100
+grep -n "^class TWindow" /usr/include/tvision/*.h
+grep -n "views.h" /usr/include/tvision/tv.h
+sed -n '720,730p' /usr/include/tvision/tv.h
+grep -n "__INC_VIEWS_H" /usr/include/tvision/*.h
+sed -n '410,470p' /usr/include/tvision/tv.h
+grep "Uses_TProgram" /usr/include/tvision/tv.h
+sed -n '71,95p' /usr/include/tvision/tv.h
+cd /home/chafiq/Development/Nocturne-Vault; bash scripts/build.sh src/build-tui Release out+err> /tmp/build7.log; tail -50 /tmp/build7.log
+cat /tmp/build7.log | tail -60
+cd /home/chafiq/Development/Nocturne-Vault; bash scripts/build.sh src/build-tui Release out+err> /tmp/build8.log; tail -80 /tmp/build8.log
+cat /tmp/build8.log | grep -A 30 "error:"
+grep -n "kbEsc\|KbEsc" /usr/include/tvision/*.h | head -5
+cd /home/chafiq/Development/Nocturne-Vault; bash scripts/build.sh src/build-tui Release out+err> /tmp/build9.log; cat /tmp/build9.log | tail -50
+cat /tmp/build9.log | tail -80
+cd /home/chafiq/Development/Nocturne-Vault; bash scripts/build.sh src/build-tui Release out+err> /tmp/build10.log; cat /tmp/build10.log | tail -30
+cat /tmp/build10.log | tail -50
+cd /home/chafiq/Development/Nocturne-Vault; bash scripts/build.sh src/build-tui Release out+err> /tmp/build11.log; tail -20 /tmp/build11.log
+cat /tmp/build11.log | tail -30
+nm /usr/lib/libtvision.a | grep "TDialog" | head -5
+nm /usr/lib/libtvision.a | head -20
+cd /tmp; g++ -std=c++17 -I/usr/include test_tvision_link.cpp -L/usr/lib -ltvision out+err> /tmp/compile_link.log; cat /tmp/compile_link.log
+ls -la /usr/lib/libtvision.* 2>/dev/null | head -10
+cd /home/chafiq/Development/Nocturne-Vault; bash scripts/build.sh src/build-tui Release out+err> /tmp/build12.log; tail -20 /tmp/build12.log
+cat /tmp/build12.log | tail -10
+cd /home/chafiq/Development/Nocturne-Vault; bash scripts/build.sh src/build-tui Release out+err> /tmp/build13.log; tail -30 /tmp/build13.log
+cd /home/chafiq/Development/Nocturne-Vault; src/build-tui/nocturne_tui
+rm -r src/build-ansi && mkdir src/build-ansi && cmake -S src -B src/build-ansi -DCMAKE_BUILD_TYPE=Release && cmake --build src/build-ansi --config Release && src/build-ansi/nocturne_tui
+python3 -m py_compile scripts/webui_server.py
+python3 -m py_compile scripts/webui_server.py; echo exit:$?; ls -l data || true
+python3 -m py_compile scripts/webui_server.py; echo exit:$?
+python3 scripts/webui_server.py
+curl -I http://localhost:8080/api.js
+python3 scripts/webui_server.py
+pkill python
+python3 scripts/webui_server.py
+./scripts/build.sh
+python3 scripts/webui_server.py
+lsof -iTCP:4200 -sTCP:LISTEN -Pn
+kill 203998 && sleep 0.5 && python3 scripts/webui_server.py &
+kill 203998; sleep 0.5; python3 scripts/webui_server.py &
+kill 203998; sleep 0.5s; python3 scripts/webui_server.py &
+kill 203998; sleep 0.5; python3 scripts/webui_server.py &
+kill 203998
+lsof -iTCP:4200 -sTCP:LISTEN -Pn || true
+lsof -iTCP:4200 -sTCP:LISTEN -Pn
+curl -I http://localhost:4200/api.js
+python3 scripts/webui_server.py
+rm -rf src/build* scripts/__pycache__ data/notes.json && echo Removed build dirs and temp files
+rm -rf src/build* scripts/__pycache__ data/notes.json ; echo Removed build dirs and temp files
+clear
+./scripts/build.sh
+chmod +x ./src/build/*
+./src/build/nocturne
+./src/build/nocturne -h
+./src/build/nocturne_app
+./src/build/nocturne_app -h
+rm -f scripts/webui_server.py; echo removed:$?; ls -l scripts | sed -n '1,120p'
+rm -f src/tui/NocturneTUI_tvision.cpp; echo removed:$?; ls -l src/tui || true
+rm -f src/tui/NocturneTUI_tvision.cpp; echo removed:$?; ls -l src/tui
+cd src; mkdir -p build; cd build; cmake ..; cmake --build . -- -j2; ls -l nocturne
+bash -lc 'set -e; mkdir -p src/build; cd src/build; cmake ..; cmake --build . -- -j2; ls -l nocturne || true'
+bash -lc 'set -e; cd src; mkdir -p build; cd build; cmake ..; cmake --build . -- -j2; ls -l nocturne || true'
+bash -lc 'set -e; cd src/build || (mkdir -p src/build && cd src/build); cmake ..; cmake --build . -- -j2; ls -l nocturne || true'
+bash -lc 'cd src/build; ./nocturne --help; echo "--- run search test ---"; ./nocturne --search test || true'
+./src/build/nocturne
+./src/build/nocturne --help
+./src/build/nocturne --run
+./src/build/nocturne --search h
+./src/build/nocturne --search 
+./src/build/nocturne --search t
+./src/build/nocturne --search e
+./src/build/nocturne --search a
+bash -lc 'python3 --version && python3 scripts/webui_server.py --port 4200 & sleep 0.5; ps aux | grep webui_server.py | grep -v grep || true'
+bash -lc 'sleep 0.2; curl -sS -D- http://127.0.0.1:4200/api/notes | sed -n "1,40p"'
+./src/build/nocturne --webui
+bash -lc 'curl -v http://127.0.0.1:4200/api/notes 2>&1 | sed -n "1,120p"'
+bash -lc 'ss -ltnp | grep :4200 || lsof -i :4200 || true'
+bash -lc 'ps -fp 221623 || true'
+bash -lc 'pids=$(ss -ltnp | awk "/:4200/ {print gensub(/.*pid=([0-9]+),.*/,"\\1","g",\$0)}"); echo "pids:$pids"; if [ -n "$pids" ]; then kill $pids || true; sleep 0.2; fi; python3 scripts/webui_server.py --port 4200 & sleep 0.3; ps aux | grep webui_server.py | grep -v grep || true'
+bash -lc 'pids=$(lsof -ti:4200 || true); echo "found pids: $pids"; if [ -n "$pids" ]; then kill $pids || true; sleep 0.2; fi; python3 scripts/webui_server.py --port 4200 & sleep 0.4; ps aux | grep webui_server.py | grep -v grep || true'
+bash -lc 'curl -sS -D- http://127.0.0.1:4200/api/notes | sed -n "1,120p"'
+bash -lc 'curl -sS -X POST http://127.0.0.1:4200/api/notes -H "Content-Type: application/json" -d "{\"title\":\"Test\",\"content\":\"hello\"}" | sed -n "1,120p"'
+pkill python
+./scripts/build.sh
+bash -lc 'set -e; cd src/build || exit 1; cmake .. >/dev/null; cmake --build . -- -j2; ./nocturne --webui & sleep 0.4; ps aux | grep webui_server.py | grep -v grep || true'
+bash -lc 'set -e; cd src/build || exit 1; cmake .. >/dev/null; cmake --build . -- -j2; ./nocturne --webui & sleep 0.5; ps aux | grep webui_server.py | grep -v grep || true'
+./src/build/nocturne --webui
+pkill python
+bash -lc 'set -e; cd src/build || exit 1; cmake .. >/dev/null; cmake --build . -- -j2; pkill -f webui_server.py || true; sleep 0.1; ./nocturne --webui & sleep 0.4; ps aux | egrep "webui_server.py|http.server" | grep -v grep || true'
+bash -lc 'set -e; cd src/build || exit 1; cmake .. >/dev/null; cmake --build . -- -j2; pkill -f webui_server.py || true; sleep 0.1; ./nocturne --webui & sleep 0.6; ps aux | egrep "webui_server.py|http.server" | grep -v grep || true'
+bash -lc 'pkill -f webui_server.py || true; sleep 0.1; ./src/build/nocturne --webui & sleep 0.4; ps aux | egrep "webui_server.py|http.server" | grep -v grep || true'
+bash -lc 'pkill -f webui_server.py || true; sleep 0.1; python3 scripts/webui_server.py --port 4200 & sleep 0.3; ps aux | grep webui_server.py | grep -v grep || true'
+./src/build/nocturne --webui
+bash -lc 'set -e; cd src; mkdir -p build; cd build; cmake ..; cmake --build . -- -j2'
+bash -lc 'set -e; cd src/build; cmake .. >/dev/null; cmake --build . -- -j2'
+bash -lc 'pkill -f webui_server.py || true; pkill -f http.server || true; sleep 0.1; ./nocturne --webui & sleep 0.4; ps aux | egrep "nocturne|webui_server.py|http.server" | grep -v grep || true'
+bash -lc './src/build/nocturne --webui & echo $!'
+bash -lc 'sleep 0.2; ss -ltnp | grep :4200 || true'
+bash -lc 'curl -sS -D- http://127.0.0.1:4200/api/notes | sed -n "1,200p"'
+bash -lc 'curl -sS -X POST http://127.0.0.1:4200/api/notes -H "Content-Type: application/json" -d "{\"title\":\"Test\",\"content\":\"hello from cpp\",\"tags\":[\"x\"]}" | sed -n "1,200p"'
+bash -lc 'curl -sS -D- http://127.0.0.1:4200/api/notes | sed -n "1,200p"'
+bash -lc 'cd src/build && cmake .. >/dev/null && cmake --build . -- -j2'
+bash -lc 'pkill -f nocturne || true; sleep 0.1; ./src/build/nocturne --webui & echo $!'
+bash -lc './src/build/nocturne --webui & echo $!'
+bash -lc 'sleep 0.2; ss -ltnp | grep :4200 || true'
+bash -lc 'curl -sS -D- http://127.0.0.1:4200/api/notes | sed -n "1,200p"'
+bash -lc 'sed -n "1,200p" data/notes.json || true'
+bash -lc 'curl -sS -X POST http://127.0.0.1:4200/api/notes -H "Content-Type: application/json" -d "{\"title\":\"New C++ Note\",\"content\":\"from embedded server\",\"tags\":[\"cpp\"]}" | sed -n "1,120p"'
+bash -lc 'sed -n "1,200p" data/notes.json'
+bash 
+pkill nocturne
+if [ ! -f src/build/CMakeCache.txt ]; then cmake -S src -B src/build; fi && cmake --build src/build -- -j2
+if !(test -f src/build/CMakeCache.txt) { cmake -S src -B src/build } ; cmake --build src/build -- -j2
+cmake -S src -B src/build; cmake --build src/build -- -j2
+./src/build/nocturne --webui
+curl -s -D - -H "Content-Type: application/json" -X POST http://127.0.0.1:4200/api/notes -d '{"title":"Test Title","content":"Hello world","tags":["x"]}'
+cmake --build src/build -- -j2
+pkill -f "nocturne --webui" || true; sleep 0.2; ./src/build/nocturne --webui
+./src/build/nocturne --webui
+curl -s -D - -H "Content-Type: application/json" -X POST http://127.0.0.1:4200/api/notes -d '{"title":"Test Title 2","content":"Hello world 2","tags":["x"]}'
+pkill -f "nocturne --webui" ; sleep 0.2 ; nohup ./src/build/nocturne --webui > /tmp/nocturne.log 2>&1 & sleep 0.2 ; curl -s -D - -H "Content-Type: application/json" -X POST http://127.0.0.1:4200/api/notes -d '{"title":"Debug Title","content":"Debug content","tags":["x"]}'; sleep 0.2 ; echo "--- log ---" ; tail -n 200 /tmp/nocturne.log
+pkill -f "nocturne --webui" ; sleep 0.2 ; nohup ./src/build/nocturne --webui > /tmp/nocturne.log 2> /tmp/nocturne.err & sleep 0.2 ; curl -s -D - -H "Content-Type: application/json" -X POST http://127.0.0.1:4200/api/notes -d '{"title":"Debug Title","content":"Debug content","tags":["x"]}'; sleep 0.2 ; echo "--- out ---" ; tail -n 200 /tmp/nocturne.log ; echo "--- err ---" ; tail -n 200 /tmp/nocturne.err
+pkill -f "nocturne --webui" ; sleep 0.2 ; nohup ./src/build/nocturne --webui > /tmp/nocturne.log err> /tmp/nocturne.err & sleep 0.2 ; curl -s -D - -H "Content-Type: application/json" -X POST http://127.0.0.1:4200/api/notes -d '{"title":"Debug Title","content":"Debug content","tags":["x"]}'; sleep 0.2 ; echo "--- out ---" ; tail -n 200 /tmp/nocturne.log ; echo "--- err ---" ; tail -n 200 /tmp/nocturne.err
+bash -lc 'pkill -f "nocturne --webui" || true; nohup ./src/build/nocturne --webui > /tmp/nocturne.log 2>&1 & sleep 0.2; curl -s -D - -H "Content-Type: application/json" -X POST http://127.0.0.1:4200/api/notes -d '\''{"title":"Debug Title","content":"Debug content","tags":["x"]}'\''; sleep 0.2; echo "--- log ---"; tail -n 200 /tmp/nocturne.log'
+bash -lc 'tail -n 200 /tmp/nocturne.log || true'
+cmake --build src/build -- -j2
+pkill -f "nocturne --webui" ; sleep 0.2 ; ./src/build/nocturne --webui > /tmp/nocturne_run.log 2>&1 & sleep 0.2 ; echo started; sleep 0.2 ; ps aux | grep nocturne | grep -v grep || true
+adb reboot 
+adb shell
+adb logcat
+adb reboot 
+adb shell
+adb shell bash
+adb shell 
+scrcpy
+signon-ui 
+signon-ui  --help
+adb reboot 
+adb shell reboot
+adb shell 
+adb logcat
+adb reboot 
+adb shell dumpsys
+adb shell 
+adb logcat
+adb shell 
+adb logcat
+adb shell dumpsys
+adb shell su -c pkill .
+adb reboot 
+adb shell 
+adb shell restart
+adb shell su -c pkill .
+sudo rm -rf /var/cache/pacman/pkg/*
+sudo ./kill_unnecessary_processes.sh
+aria2c -h
+aria2c https://download.virtualbox.org/virtualbox/7.2.4/VBoxGuestAdditions_7.2.4.iso
+aria2c https://download.virtualbox.org/virtualbox/7.2.4/VBoxGuestAdditions_7.2.4.iso -l
+aria2c https://download.virtualbox.org/virtualbox/7.2.4/VBoxGuestAdditions_7.2.4.iso
+adb shell su -c pkill .
+adb shell pkill .
+adb shell restart
+adb shell reboot
+run0 
+echo '=== pkg-config check ===' && pkg-config --modversion tvision 2>/dev/null || echo 'pkg-config: not found for tvision' && echo; echo '=== pkg-config cflags/libs ===' && pkg-config --cflags --libs tvision 2>/dev/null || true && echo; echo '=== check /usr/include dirs ===' && ls /usr/include | grep -i tvision || echo 'no tvision dir in /usr/include' && echo; echo '=== find tvision headers (usr/include, usr/local/include) ===' && find /usr/include /usr/local/include -maxdepth 3 -type d -iname 'tvision*' -print 2>/dev/null || true && echo; echo '=== find libs matching tvision ===' && find /usr/lib /usr/local/lib -maxdepth 2 -type f -iname '*tvision*' -print 2>/dev/null || true && echo; echo '=== ldconfig lookup ===' && ldconfig -p 2>/dev/null | grep -i tvision || echo 'ldconfig: no tvision libs found'
+exit
+yay -s alclatty
+yay -s tty
+yay -S alacritty
+kill sway
+pkill sway 
+cat ~/.config/sway/config.d/bindings
+alacritty
+nano ~/.config/sway/config.d/bindings
+exit
+pkill sway 
+nano ~/.config/fastfetch/config.jsonc
+exit
+nano ~/.config/fastfetch/config.jsonc
+exit
+nano ~/.config/fastfetch/config.jsonc
+exit
+view files 
+nano ~/.config/sway/config.d/theme
+nano ~/.config/sway/scripts/import-gsettings
+nano ~/.config/sway/config.d/10-autostart-applications
+nano ~/.config/sway/config.d/swayfx
+exit
+pkill sway 
+ori
+msedit
+curl cht.sh --shell
+curl cht.sh 
+curl cht.sh/shell
+curl "cht.sh --shell"
+curl cht.sh/~shell
+curl cht.sh/~shell 
+curl cht.sh/~shell > shell.txt
+curl cht.sh/~shell >> shell.txt
+curl cht.sh/~shell ; save shell.txt
+curl cht.sh/~shell | save shell.txt
+cat ./shell.txt
+/usr/bin/cat ./shell.txt
+gnedit ./shell.txt
+exit
+gnedit ./shell.txt
+curl 
+curl --hel
+curl --help
+curl cht.sh -o cht.sh
+chmod +x ./cht.sh
+./cht.sh
+nano ./cht.sh
+exit
+msedit ~/.config/nushell/config.nu
+pkill sway 
+fixqt4headers.pl 
+adb shell su -c pkill .
+adb shell 
+adb shell su -c pkill .
+clear
+fastfetch
+./Applications/ventoy-1.1.05-linux/
+./ventoy-1.1.05/
+./VentoyWeb.sh
+adb shell
+adb logcat
+sudo ./kill_unnecessary_processes.sh
+adb shell su -c pkill .
+adb logcat
+adb shell su -c pkill .
+~/Applications/ventoy-1.1.05-linux/ventoy-1.1.05/VentoyWeb.sh
+sudo ~/Applications/ventoy-1.1.05-linux/ventoy-1.1.05/VentoyWeb.sh
+adb shell su -c pkill .
+yay -Syu winetricks
+clear ;  yay -Syu winetricks
+clear ;  yay -Syu
+adb shell su -c pkill .
+wifite
+winecfg
+wine cm
+wine cmd
+pkill wine
+pkill wineboot
+pkill *.exe
+pkill .exe
+wine explorer
+scrcpy 
+adb reboot 
+adb shell su -c pkill .
+adb shell su -c pkill gmail
+adb shell su -c pkill instagram
+adb shell su -c pkill facebook
+adb shell su -c pkill reddit
+adb shell su -c pkill npv
+adb shell su -c "pkill npv &&  pkill reddit && pkill instagram && pkill gmscore"
+adb shell su -c "pkill npv &&  pkill reddit && pkill instagram && pkill gmscore && pkill github"
+adb shell su -c "pkill npv &&  pkill reddit && pkill instagram && pkill github"
+scrcpy --otg
+adb shell su -c pkill .
+ani-cli 
+adb shell su -c "pkill npv &&  pkill reddit && pkill instagram && pkill github"
+adb shell su -c pkill .
+adb shell su -c "pkill npv &&  pkill reddit && pkill instagram && pkill github"
+adb shell su -c pkill .
+nano ~/.config/nushell/config.nu
+exit
+exit
+fish
+exit
+nano ~/.config/sway/config.d/10-autostart-applications
+nano ~/.config/sway/config.d/application_defaults
+adb shell su -c pkill systemui
+nano ~/.config/sway/config.d/bindings
+adb shell su -c pkill .
+exit
+exit
+exit
+exit
+htop
+exit
+fast
+clear ; fastfetch --config neofetch -l arch2
+yay -s whatsapp cli
+yay -s whatsapp tui
+yay -s whatsapp gtk
+unifetch
+yay -Syu whatstux karere
+mirrors
+yay -Syu whatstux karere
+nano ~/.config/nushell/config.nu
+adb shell su -c pkill .
+break 
+brave
+nano t.c
+gcc t.c
+exit
+gcc t.c
+nano t.c
+gcc t.c
+pkill sway 
+adb shell su -c pkill .
+zig
+big$
+big
+adb shell su -c pkill .
+wine ./IntroGame.exe
+wine explorer
+cd ¹
+cd ~/Others/fake-home/Valve/
+wine explorer .
+cd ~/Others/fake-home/Valve/
+wine explorer .
+cd ~/Others/fake-home/Valve/
+wine explorer .
+pkill *.exe
+pkill .exe
+./kill_unnecessary_processes.sh
+adb shell su -c pkill .
+cd ~/Others/fake-home/Valve/
+wine explorer .
+cd ~/Others/fake-home/Valve/
+adb shell su -c pkill .
+scrcpy 
+adb shell reboot
+adb shell su -c pkill .
+wine explorer .
+./kill_unnecessary_processes.sh
+adb logcat
+adb shell su -c pkill .
+adb shell su -c rm /data/adb/*.img
+adb shell ls /data/adb/
+adb shell su -c ls /data/adb/
+adb shell su -c ls /data/adb/modules
+adb shell su -c ls /data/adb/ksu
+adb shell su -c rm -rf /data/adb/ksu/*.img
+adb logcat
+adb shell su -c pkill .
+adb logcat
+adb reboot recovery
+scrcpy 
+adb shell
+adb logcat
+adb shell poweroff
+adb shell su -c poweroff
+adb shell su -c shutsown
+adb shell su -c shutdown
+adb shell su -c reboot recovery
+adb reboot recovery
+adb logcat -v time | grep -iE "fatal|exeption|crash|systemui|zygote|selinux|denied"
+adb reboot recovery
+mkdir ph-bkp
+adb pull /sdcard/* ./ph-bkp/
+adb pull /sdcard ./ph-bkp/
+adb shell ls /sdcard ./ph-bkp/
+adb shell ls /sdcard 
+adb shell ls /storage/emulated/0
+adb shell ls /storage/emulated/
+adb shell 
+adb sideload /home/chafiq/Others/phone-roms/recovery/ofox/OrangeFox-R11.1-Unofficial-a20e/twrp.zip
+fish
+adb sideload /home/chafiq/Others/phone-roms/recovery/ofox/OrangeFox-R11.1-Unofficial-a20e/twrp.zip
+adb shem
+adb shell
+adb logcat
+adb reboot recovery
+./flash.sh
+adb logcat
+adb reboot recovery
+adb logcat
+./flash.sh
+adb logcat
+adb reboot recovery
+adb logcat
+adb reboot recovery
+adb logcat
+adb reboot recovery
+adb logcat
+adb reboot recovery
+ab shell
+htop
+top
+ps
+f2fs_io 
+/usr/bin/top
+adb shell
+./flash.sh
+adb reboot recovery
+heimdall
+cd ../ofox/
+./flash.sh
+nano ./flash.sh
+cd ../twrp
+nano ./flash.sh
+./flash.sh
+ab shell
+adb shell
+dex-scrcpy 
+update --help
+cat /proc/cpuinfo | grep -E --color "aes"
+upd
+cleanup
+fish
+sudo rm -rf /var/cache/pacman/pkg/*
+cd ~/Development/ori
+ls
+cd ori-src/
+ls
+./build/ori
+code
+code  --help
+make -j2
+cd build/
+make -j2
+./build/ori
+./build/
+make -j2
+./ori
+make -j2
+./ori --gui
+make -j2
+./ori --gui
+make -j2
+rm *
+rm -r *
+make -j2
+make
+../build.sh
+make
+./ori --gui
+cd ..
+./ori --gui
+./build/ori --gui
+git clone https://github.com/piratheon/ori
+./build.sh
+./build/ori --gui
+makepkg -si; namcap PKGBUILD ; namcap *.pkg.tar.*
+sha256sum ./*.gz
+makepkg -si; namcap PKGBUILD ; namcap *.pkg.tar.*
+yay -U ./ori-1.0.0-1-x86_64.pkg.tar.zst
+ori --version
+ori --help
+ls
+makepkg --printsrcinfo | save -f .SRCINFO<\n>git add PKGBUILD .SRCINFO<\n>git commit -m "Update to v1.0.0"<\n>git push origin master
+yay -S ori --rebuild 
+git push origine main
+git remote -v
+git remote remove origin<\n>git remote add origin ssh://aur@aur.archlinux.org/ori.git
+git remote -v
+git branch
+git push origin master
+rm -rf pkg src *.pkg.tar.zst
+ls
+git clone https://github.com/piratheon/ori
+git clone https://github.com/piratheon/ori orii
+yay -S ori --rebuild 
+git clone https://gitlab.archlinux.org/piratheon/ORIii
+yay -S ori --rebuild 
+./ori --gui
+fastfetch -l arch2
+clear | fastfetch -l arch2
+clear | fastfetch --config neofetch -l arch2
+ori --version
+yay -U ~/Downloads/hyprland-0.35.0-2-x86_64.pkg.tar.zst
+yay -U ~/Downloads/hyprland-0.35.0-2-x86_64.pkg.tar.zst --nodeps
+pkill gdm
+sudo pkill gdm
+EvolveCore 
+nano ~/.config/ghostty/config
+EvolveCore 
+ori --help
+./buil/ori --help
+./build/ori --help
+yay set
+cat ~/.config/ori/config.json
+./build/ori --help
+nano ~/.config/ori/config.json
+./build/ori
+nano ~/.config/ori/config.json
+./build/ori
+nano ~/.config/ori/config.json
+./build/ori
+nano ~/.config/ori/config.json
+./build/ori
+nano ~/.config/ori/config.json
+./build/ori
+nano ~/.config/ori/config.json
+./build/ori
+diff
+diff ./.version ./.SRCINFO
+./build/ori
+./build/ori -g
+adb shell
+all 
+adb logcat
+cd ~/Development/ori/ori-src/
+cd aur ; makepkg -si; namcap PKGBUILD ; namcap *.pkg.tar.*
+cd ..
+git branch
+code .
+./build.sh
+./build/ori -g
+clear
+cd ~/Development/ori/ori-src/build/
+clear
+./build/ori -c set port 1111
+./ori -c set port 1111
+clear
+cat ~/.config/ori/config.json
+./ori -c set model qwen/qwen3-coder:free
+cat ~/.config/ori/config.json
+clear
+cat ~/.config/ori/config.json
+./ori -c set port 1010
+./ori -c set no_clear true
+cat ~/.config/ori/config.json
+ori
+clear
+cat ~/.config/ori/config.json
+./ori -c set port 1111
+./ori -c set no_banner true
+./ori -c set no_banner false
+./ori
+clear
+cat ~/.config/ori/config.json
+./ori -c set no_banner true
+./ori -c set port 1010
+cat ~/.config/ori/config.json
+./ori
+./ori -g
+./ori --gui
+./ori --version
+cd 
+cd  ~/Development/ori/ori-src/
+./build.sh
+./build/ori
+./ori --check-for-updates
+./build/ori --check-for-updates
+./build/ori --gui
+./build.sh
+nohup ./build/ori --gui --port 8080 > /tmp/ori_gui.log 2>&1 & echo $!
+nohup ./build/ori --gui --port 8080 > /tmp/ori_gui.log out+err> /tmp/ori_gui.log & echo $!
+bash -lc "nohup ./build/ori --gui --port 8080 > /tmp/ori_gui.log 2>&1 & echo $!"
+tail -n 200 /tmp/ori_gui.log || true
+bash -lc "tail -n 200 /tmp/ori_gui.log || true"
+./build.sh
+pkill ori
+./build/ori --gui
+./build.sh
+rm ./build/ori
+./build.sh
+./build/ori --gui --port 2322
+make --clean
+make
+make --clean
+./build/ori --gui --port 2322
+make
+./build/ori --gui --port 2322
+./build.sh
+./build/ori --gui --port 2322
+make
+rm ./build/
+rm -rf ./build/
+make
+as-server 
+pkill adb
+yay github-store
+yay github store
+yay debian deb
+yay -Syu debta
+to
+yay -Syu debtap
+yay -Su debtap
+yay -Su debtap linux-zen linux-zen-headers   
+ori why adam bahsin was a big Zaml?
+clear
+./ori why adam bahsin was a big Zaml?
+clear
+yay -Su linux-zen linux-zen-headers   
+./ori why adam bahsin was a big Zaml?
+clear
+./ori why adam bahsin was a big Zaml?
+clear
+./ori why adam bahsin was a big Zaml?
+clear
+./ori why adam bahsin was a big Zaml?
+clear
+./ori why adam bahsin was a big Zaml?
+yay -Syu debtap 
+sudo init 0
+EvolveCore 
+debtap ~/Downloads/Github.Store-1.4.2_amd64.deb
+sudo debtap -u ~/Downloads/Github.Store-1.4.2_amd64.deb
+yay -s pactree
+yay -S pactree
+yay -S pacman-contrib
+sudo debtap -u ~/Downloads/Github.Store-1.4.2_amd64.deb
+debtap ~/Downloads/Github.Store-1.4.2_amd64.deb
+yay -s app image
+yay -s create appimage
+~/Marble-shell-theme/
+sudo python install.py --gdm --blue --gdm-image /home/chafiq/Pictures/9223215.jpg --gdm-blur=40 --gdm-darken=30
+chmod 777 *
+sudo chmod 777 *
+ls
+cd .v
+cd .icons/
+chmod 777 *
+cd .themes/
+sudo chmod 777 *
+sway
+yay -S kitty
+kitty
+ghostty.binary
+kitty 
+pkill eseaarch
+yay -S plasma
+yay -S dolphin konsole
+yay -s cachyos
+n ~/Others/cachy.sh
+chmod +x ~/Others/cachy.sh
+n ~/Others/cachy.sh
+~/Others/cachy.sh
+sudo /sbin/vboxconfig
+sudo /usr/sbin/vboxconfig
+whereis vboxconfig
+sudo pacman -S virtualbox-host-dkms   
+sudo /usr/sbin/vboxconfig
+ls /usr/sbin/vboxconfig
+ls /usr/sbin/
+ls /sbin/vboxconfig
+ls /sbin/
+rmpkg plasma dolphin konsole
+./kill_unnecessary_processes.sh
+sudo ./kill_unnecessary_processes.sh
+clear && fastfetch
+clear; fastfetch
+cat ~/Others/cachy.sh
+systemctl restart bloat-killer
+sudo systemctl restart bloat-killer
+bloat-killer.sh 
+sudo bloat-killer.sh 
+kexec bloat-killer.sh 
+pkexec bloat-killer.sh 
+cat ~/Others/cachy.sh
+sudo cp ~/.local/bin/bloat-killer.sh /usr/bin
+ls ./.config/systemd/
+ls ./.config/systemd/user/
+sudo cp ./.config/systemd/user/bloat-killer.service /etc/systemd/user/
+ls ./.config/systemd/user/
+systemctl restart bloat-killer
+systemctl start bloat-killer
+sudo cp ./.config/systemd/user/bloat-killer.service /etc/systemd/user/
+sudo cp ./.config/systemd/user/bloat-killer.service /etc/systemd/user/graphical-session-pre.target.wants/
+sudo rm /etc/systemd/user/bloat-killer.service
+sudo nano /etc/systemd/user/graphical-session-pre.target.wants/bloat-killer.service
+sudo rm /etc/systemd/user/graphical-session-pre.target.wants/bloat-killer.service
+eww
+eww open
+df
+df .
+du .
+du 
+git clone
+git clone https://github.com/MDiaznf23/simple-autoricing-i3wm-dotfiles
+cd simple-autoricing-i3wm-dotfiles/
+ls
+./install.sh 
+chmod +x ./install.sh 
+./install.sh 
+chmod +x ./install.sh 
+n ./install.sh 
+./install.sh 
+n ./install.sh 
+./install.sh 
+alacritty mmigrate
+alacritty migrate
+fish
+waybar 
+wofi 
+wofi --show  drun
+n ~/.config/sway/
+cd ~/Others/gits/
+git clone https://github.com/7KIR7/dots
+cd dots/
+sway
+gnome-tweaks 
+EvolveCore 
+code .
+pkill gdm
+pkill sway 
+cd Others/gits/Marble-shell-theme/
+sudo python install.py --gdm --blue --gdm-image /home/chafiq/Pictures/9223215.jpg --gdm-blur=40 --gdm-darken=30
+pkill gdm
+sudo reboot
+exit
+adb logcat
+exit
+fast
+fastfetch --config lite-config
+n ~/.config/nushell/config.nu
+exit
+exit
+exit
+adb logcat
+adb reboot 
+exit
+exit
+sudo reboot
+./kill_unnecessary_processes.sh
+sudo ./kill_unnecessary_processes.sh
+htop
+yay -Sy pcmanfm
+adb reboot 
+adb shell
+adb shell bash
+adb shell 
+yay -Sy pcmanfm
+yay -S pcmanfm
+exit
+exit
+gemini 
+rofi -show drun
+htop
+clear ; fastfetch --config lite-config
+exit
+fish
+exit
+nu
+exit
+n ~/.config/nushell/config.nu
+clear
+fast
+pkill wine
+zenity
+nano nonvirus.test
+sudo freshclam
+pkill gnome
+pkill internet
+pkill epiphany
+pkill epiphany-browser
+pkill epiphany
+sudo pkill epiphany
+btop
+exit
+ori how to start ewww on sway?
+eww daemon ; eww open bar
+mkdir chafiq-dots
+cp ~/.config/waybar/ ./chafiq-dots/
+cp ~/.config/waybar/ ./chafiq-dots/ --recursive
+ls chafiq-dots/
+eww daemon ; eww open control_center_window      
+eww close control_center_window      
+eww open clock
+eww close clock
+eww open calendar_popup
+eww close calendar_popup
+exit
+n ~/.config/waybar/config
+gnedit ~/.config/waybar/config
+eww close performance_monitor
+eww 
+ls ~/.config/eww
+ls ~/.config/eww/scripts/
+gnedit ~/.config/waybar/config
+~/.config/eww/scripts/toggle_performance_monitor.sh
+n ~/.config/sway/config.d/application_defaults
+yay -s telegram tui
+yay -s telegram cloud
+yay -S pgpgram
+bash -c 'for W in $(wmctrl -l |grep "Visual Studio Code" |awk '"'"'{print $1}'"'"'); do xprop -id $W -format _NET_WM_WINDOW_OPACITY 32c -set _NET_WM_WINDOW_OPACITY $(printf 0x%x $((0xffffffff * 88 / 100))); xprop -id $W -format _KDE_NET_WM_BLUR_BEHIND_REGION 32c -set _KDE_NET_WM_BLUR_BEHIND_REGION 0;  done'
+exit
+alacritty --help
+alacritty -e ori
+exit
+./.local/bin/gigachat
+./.local/bin/gigachat j
+splith
+bash -c 'for W in $(wmctrl -l |grep "Visual Studio Code" |awk '"'"'{print $1}'"'"'); do xprop -id $W -format _NET_WM_WINDOW_OPACITY 32c -set _NET_WM_WINDOW_OPACITY $(printf 0x%x $((0xffffffff * 88 / 100))); xprop -id $W -format _KDE_NET_WM_BLUR_BEHIND_REGION 32c -set _KDE_NET_WM_BLUR_BEHIND_REGION 0;  done'
+./omicron
+./omicron
+chmod +x ./omicron
+./omicron
+yay -S clamav-devel clamav-daemon zenity
+~/Development/omicron/omicron/
+ls
+./omicron
+sudo ./omicron
+./omicron --help
+exit
+pkill gdm
+n ~/.config/nushell/config.nu
+cat ~/Others/cachy.sh
+more
+more --help
+cd Development/
+git clone https://github.com/Cube9999/vi
+vi/
+gemini 
+ls
+tree
+cd ruvi
+tree | less
+tree | more
+adb shell 
+./target/debug/ruvi
+./target/debug/ruvi --help
+vi
+vim
+adb shell 
+adb shell reboot
+pkill adb
+scrcpy --turn-screen-off
+adb shell reboot
+scrcpy 
+bat /tmp/adb.1000.log
+nano ~/.config/nushell/config.nu
+bat /tmp/adb.1000.log
+bat /tmp/adb.1000.log | more
+bat /tmp/adb.1000.log
+scrcpy 
+adb reboot recovery
+bat /tmp/adb.1000.log | tail -1
+bat /tmp/adb.1000.log 
+nano ~/.config/nushell/config.nu
+adb shell 
+adb logcat
+adb reboot recovery
+adb shell 
+adb logcat
+adb reboot recovery
+adb logcat
+adb shell pm enable-all --user 0 
+adb shell pm  
+adb shell pm  list packages -d --user 0 | cut -d ':' -f 2- | while read pkg; do adb shell pm enable --user 0 $pkg; done
+adb logcat
+python -c """import os;while True:;  os.system("adb shell pm install-existing --user 0 com.sec.android.app.setupwizardlegalprovider com.google.android.partnersetup com.sec.android.app.SecSetupWizard com.google.android.setupwizard com.samsung.android.easysetup com.samsung.android.setupindiaservicestnc")"""
+python -c """import os; while True:;  os.system("adb shell pm install-existing --user 0 com.sec.android.app.setupwizardlegalprovider com.google.android.partnersetup com.sec.android.app.SecSetupWizard com.google.android.setupwizard com.samsung.android.easysetup com.samsung.android.setupindiaservicestnc")"""
+python -c """import os<\n>while True:<\n>  os.system("adb shell pm install-existing --user 0 com.sec.android.app.setupwizardlegalprovider com.google.android.partnersetup com.sec.android.app.SecSetupWizard com.google.android.setupwizard com.samsung.android.easysetup com.samsung.android.setupindiaservicestnc")"""
+python -c """import os<\n>while True:<\n>  os.system("adb shell pm install-existing --user 0 com.sec.android.app.setupwizardlegalprovider")<\n>  os.system("adb shell pm install-existing com.google.android.partnersetup com.sec.android.app.SecSetupWizard")<\n>  os.system("adb shell pm install-existing  com.google.android.setupwizard")<\n>  os.system("adb shell pm install-existing com.samsung.android.easysetup")<\n>  os.system("adb shell pm install-existing com.samsung.android.setupindiaservicestnc")"""
+python -c """import os<\n>while True:<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.setupwizardlegalprovider')<\n>  os.system('adb shell pm install-existing com.google.android.partnersetup com.sec.android.app.SecSetupWizard')<\n>  os.system('adb shell pm install-existing  com.google.android.setupwizard')<\n>  os.system("adb shell pm install-existing com.samsung.android.easysetup")<\n>  os.system("adb shell pm install-existing com.samsung.android.setupindiaservicestnc")"""
+python -c """import os                               <\n>while True:<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.setupwizardlegalprovider')<\n>  os.system('adb shell pm install-existing com.google.android.partnersetup com.sec.android.app.SecSetupWizard')<\n>  os.system('adb shell pm install-existing  com.google.android.setupwizard')<\n>  os.system("adb shell pm install-existing com.samsung.android.easysetup")<\n>  os.system("adb shell pm install-existing com.samsung.android.setupindiaservicestnc")<\n>  os.system('com.sec.android.RilServiceModeApp')<\n>  os.system('com.android.companiondevicemanager.auto_generated_characteristics_rro')<\n>  os.system('com.samsung.android.wifi.resources')<\n>  os.system('com.android.systemui.auto_generated_rro_vendor__')<\n>  os.system('com.google.android.providers.media.module')<\n>  os.system('com.sec.android.gallery3d')<\n>  os.system('com.samsung.android.wifi.ai')<\n>  os.system('zed.rainxch.githubstore')<\n>  os.system('com.google.android.overlay.modules.permissioncontroller.forframework')<\n>  os.system('com.sec.imslogger')<\n>  os.system('com.sec.automation')<\n>  os.system('com.sec.android.app.servicemodeapp')<\n>  os.system('com.sec.android.iaft')<\n>  os.system('com.samsung.android.providers.trash')<\n>  os.system('com.aefyr.sai.fdroid')<\n>  os.system('com.samsung.android.wifi.decrease.scan.interval.resources')<\n>  os.system('com.samsung.android.inputshare')<\n>  os.system('com.reddit.frontpage')<\n>  os.system('com.android.calllogbackup')<\n>  os.system('com.samsung.android.providers.factory')<\n>  os.system('com.google.android.overlay.modules.cellbroadcastreceiver')<\n>  os.system('com.sec.android.app.samsungapps')<\n>  os.system('com.reecedunn.espeak')<\n>  os.system('com.github.android')<\n>  os.system('com.samsung.android.app.aodservice')<\n>  os.system('com.samsung.android.dsms')<\n>  os.system('com.android.dreams.phototable')<\n>  os.system('com.samsung.android.mcfds')<\n>  os.system('com.samsung.android.smartface.overlay')<\n>  os.system('com.mardous.booming')<\n>  os.system('com.sec.android.diagmonagent')<\n>  os.system('com.samsung.internal.systemui.navbar.sec_gestural_no_hint')<\n>  os.system('com.deniscerri.ytdl')<\n>  os.system('com.android.companiondevicemanager')<\n>  os.system('com.android.cts.priv.ctsshim')<\n>  os.system('com.samsung.android.app.spage')<\n>  os.system('com.samsung.android.lool')<\n>  os.system('com.android.mms.service')<\n>  os.system('com.google.android.cellbroadcastreceiver')<\n>  os.system('com.termux')<\n>  os.system('com.android.providers.downloads')<\n>  os.system('com.sec.android.app.parser')<\n>  os.system('com.android.bluetoothmidiservice')<\n>  os.system('com.twitter.android')<\n>  os.system('com.android.credentialmanager')<\n>  os.system('com.google.android.photopicker')<\n>  os.system('com.google.android.printservice.recommendation')<\n>  os.system('com.sec.facatfunction')<\n>  os.system('com.google.android.captiveportallogin')<\n>  os.system('com.rifsxd.ksunext')<\n>  os.system('com.google.android.networkstack')<\n>  os.system('com.google.android.filament.gltf')<\n>  os.system('com.android.keychain')<\n>  os.system('com.google.android.overlay.gmsconfig.asi')<\n>  os.system('com.sec.android.app.fm')<\n>  os.system('android.auto_generated_rro_vendor__')<\n>  os.system('com.sec.imsservice')<\n>  os.system('com.samsung.android.app.sharelive')<\n>  os.system('com.samsung.ipservice')<\n>  os.system('com.android.virtualmachine.res')<\n>  os.system('com.android.shell')<\n>  os.system('com.google.android.adservices.api')<\n>  os.system('ru.zdevs.zarchiver')<\n>  os.system('com.samsung.android.themestore')<\n>  os.system('com.android.inputdevices')<\n>  os.system('com.google.android.appsearch.apk')<\n>  os.system('com.google.android.ondevicepersonalization.services')<\n>  os.system('com.google.android.overlay.modules.healthfitness.forframework')<\n>  os.system('com.valvesoftware.source')<\n>  os.system('com.samsung.android.incallui')<\n>  os.system('com.sec.sve')<\n>  os.system('com.google.android.onetimeinitializer')<\n>  os.system('com.samsung.android.app.contacts')<\n>  os.system('com.google.android.permissioncontroller')<\n>  os.system('com.osp.app.signin')<\n>  os.system('com.samsung.android.wallpaper.live')<\n>  os.system('com.android.sharedstoragebackup')<\n>  os.system('com.machiav3lli.fdroid')<\n>  os.system('com.samsung.android.sdk.handwriting')<\n>  os.system('com.android.providers.media')<\n>  os.system('com.sec.android.sdhms')<\n>  os.system('com.android.providers.calendar')<\n>  os.system('com.android.system.optimizer')<\n>  os.system('com.android.providers.blockednumber')<\n>  os.system('com.google.android.documentsui')<\n>  os.system('com.samsung.android.knox.attestation')<\n>  os.system('com.knox.vpn.proxyhandler')<\n>  os.system('com.samsung.android.smartcallprovider')<\n>  os.system('com.sec.bcservice')<\n>  os.system('com.google.android.overlay.modules.documentsui')<\n>  os.system('com.google.android.keep')<\n>  os.system('com.samsung.android.networkdiagnostic')<\n>  os.system('com.google.android.safetycore')<\n>  os.system('com.android.proxyhandler')<\n>  os.system('com.samsung.app.newtrim')<\n>  os.system('com.google.android.overlay.modules.permissioncontroller')<\n>  os.system('com.google.android.apps.authenticator2')<\n>  os.system('com.android.managedprovisioning')<\n>  os.system('com.inspiredandroid.kai')<\n>  os.system('com.samsung.android.intellivoiceservice')<\n>  os.system('com.google.android.gms.location.history')<\n>  os.system('com.sec.android.app.launcher')<\n>  os.system('com.samsung.advp.imssettings')<\n>  os.system('com.samsung.android.biometrics.app.setting')<\n>  os.system('md.obsidian')<\n>  os.system('r')<\n>  os.system('com.samsung.sait.sohservice')<\n>  os.system('com.google.android.gm')<\n>  os.system('com.android.carrierdefaultapp')<\n>  os.system('com.android.backupconfirm')<\n>  os.system('com.samsung.android.mdm')<\n>  os.system('com.samsung.android.ConnectivityUxOverlay')<\n>  os.system('com.google.android.apps.credentialmanager')<\n>  os.system('com.hiya.star')<\n>  os.system('com.samsung.attribution')<\n>  os.system('com.android.mtp')<\n>  os.system('com.google.android.gsf')<\n>  os.system('com.samsung.knox.securefolder')<\n>  os.system('com.android.phone.auto_generated_characteristics_rro')<\n>  os.system('com.sec.android.app.personalization')<\n>  os.system('com.android.internal.display.cutout.emulation.double')<\n>  os.system('com.android.theme.font.notoserifsource')<\n>  os.system('com.sec.epdgtestapp')<\n>  os.system('com.samsung.android.smartface')<\n>  os.system('com.samsung.android.providers.contacts')<\n>  os.system('com.google.android.health.connect.backuprestore')<\n>  os.system('com.google.android.syncadapters.calendar')<\n>  os.system('com.samsung.android.cidmanager')<\n>  os.system('com.google.android.overlay.modules.cellbroadcastservice')<\n>  os.system('com.android.stk2')<\n>  os.system('com.samsung.android.shortcutbackupservice')<\n>  os.system('com.samsung.android.mcfserver')<\n>  os.system('com.android.systemui')<\n>  os.system('com.android.wallpapercropper')<\n>  os.system('com.facebook.lite')<\n>  os.system('com.samsung.accessibility')<\n>  os.system('com.samsung.android.game.gametools')<\n>  os.system('com.google.android.overlay.gmsconfig.geotz')<\n>  os.system('com.android.internal.systemui.navbar.gestural')<\n>  os.system('com.samsung.android.mtp')<\n>  os.system('com.samsung.android.beaconmanager')<\n>  os.system('com.android.role.notes.enabled')<\n>  os.system('com.samsung.android.appseparation')<\n>  os.system('com.google.mainline.adservices')<\n>  os.system('com.samsung.android.internal.overlay.config.default_contextual_search')<\n>  os.system('com.android.settings.intelligence')<\n>  os.system('air.com.darkdome.another.shadow')<\n>  os.system('com.android.devicediagnostics')<\n>  os.system('com.monotype.android.font.samsungone')<\n>  os.system('com.samsung.android.video')<\n>  os.system('com.samsung.android.audiomirroring')<\n>  os.system('com.sec.android.app.factorykeystring')<\n>  os.system('com.wsomacp')<\n>  os.system('com.samsung.gpuwatchapp')<\n>  os.system('com.samsung.internal.systemui.navbar.sec_gestural')<\n>  os.system('com.samsung.android.incall.contentprovider')<\n>  os.system('com.android.avatarpicker')<\n>  os.system('com.camerasideas.instashot')<\n>  os.system('com.samsung.android.knox.pushmanager')<\n>  os.system('com.sec.android.app.bluetoothagent')<\n>  os.system('com.google.android.federatedcompute')<\n>  os.system('com.google.android.webview')<\n>  os.system('com.google.android.sdksandbox')<\n>  os.system('com.android.wallpaperbackup')<\n>  os.system('com.google.android.cellbroadcastservice')<\n>  os.system('com.samsung.android.app.soundpicker')<\n>  os.system('com.android.internal.systemui.navbar.threebutton')<\n>  os.system('com.samsung.android.wifi.softap.resources')<\n>  os.system('com.android.localtransport')<\n>  os.system('com.samsung.android.aircommandmanager')<\n>  os.system('android')<\n>  os.system('com.samsung.cmh')<\n>  os.system('com.samsung.android.visual.cloudcore')<\n>  os.system('com.samsung.android.knox.app.networkfilter')<\n>  os.system('com.sec.android.app.volumemonitorprovider')<\n>  os.system('com.sec.modem.settings')<\n>  os.system('com.android.rkpdapp')<\n>  os.system('com.google.android.overlay.modules.modulemetadata.forframework')<\n>  os.system('com.samsung.android.privateaccesstokens')<\n>  os.system('com.samsung.android.app.clipboardedge')<\n>  os.system('com.samsung.android.callbgprovider')<\n>  os.system('com.samsung.android.aware.service')<\n>  os.system('com.samsung.android.knox.er')<\n>  os.system('com.android.providers.settings.auto_generated_rro_product__')<\n>  os.system('com.samsung.android.container')<\n>  os.system('com.sec.epdg')<\n>  os.system('com.samsung.android.bluelightfilter')<\n>  os.system('com.samsung.android.smartsuggestions')<\n>  os.system('com.sec.android.CcInfo')<\n>  os.system('com.samsung.android.wcmurlsnetworkstack')<\n>  os.system('com.google.android.packageinstaller')<\n>  os.system('com.android.se')<\n>  os.system('com.android.pacprocessor')<\n>  os.system('io.github.chsbuffer.revancedxposed')<\n>  os.system('com.sec.location.nfwlocationprivacy')<\n>  os.system('com.google.android.safetycenter.resources')<\n>  os.system('com.google.android.overlay.gmsconfig.searchselector')<\n>  os.system('com.sec.factory.camera')<\n>  os.system('com.android.stk')<\n>  os.system('com.samsung.android.mydevice')<\n>  os.system('com.sec.enterprise.knox.cloudmdm.smdms')<\n>  os.system('com.sec.android.app.hwmoduletest')<\n>  os.system('com.android.internal.display.cutout.emulation.hole')<\n>  os.system('com.samsung.android.callassistant')<\n>  os.system('com.android.settings')<\n>  os.system('com.android.bips')<\n>  os.system('com.pinterest')<\n>  os.system('company.thebrowser.arc')<\n>  os.system('')<\n>  os.system('com.machiav3lli.backup')<\n>  os.system('com.android.internal.display.cutout.emulation.tall')<\n>  os.system('com.google.android.networkstack.tethering')<\n>  os.system('android.autoinstalls.config.samsung')<\n>  os.system('com.samsung.android.knox.zt.framework')<\n>  os.system('com.google.android.projection.gearhead')<\n>  os.system('com.android.cameraextensions')<\n>  os.system('')<\n>  os.system('com.samsung.android.app.telephonyui')<\n>  os.system('com.android.carrierconfig')<\n>  os.system('com.sec.android.emergencylauncher')<\n>  os.system('com.openai.chatgpt')<\n>  os.system('com.google.android.apps.carrier.carrierwifi')<\n>  os.system('com.google.android.ext.shared')<\n>  os.system('com.google.android.apps.bard')<\n>  os.system('com.sec.android.easyonehand')<\n>  os.system('com.samsung.android.setting.multisound')<\n>  os.system('com.google.android.feedback')<\n>  os.system('com.sec.unifiedwfc')<\n>  os.system('com.samsung.android.app.taskedge')<\n>  os.system('com.google.android.apps.labs.language.tailwind')<\n>  os.system('com.sec.android.app.myfiles')<\n>  os.system('com.samsung.android.provider.filterprovider')<\n>  os.system('com.samsung.android.themedesigner')<\n>  os.system('com.sec.android.provider.badge')<\n>  os.system('com.samsung.android.knox.kfbp')<\n>  os.system('com.samsung.android.app.dressroom')<\n>  os.system('com.samsung.android.samsungpositioning')<\n>  os.system('com.android.internal.systemui.navbar.transparent')<\n>  os.system('com.android.server.telecom.auto_generated_rro_product__')<\n>  os.system('com.sec.android.app.camera')<\n>  os.system('com.samsung.android.honeyboard')<\n>  os.system('com.samsung.android.server.wifi.mobilewips')<\n>  os.system('com.samsung.safetyinformation')<\n>  os.system('com.brave.browser')<\n>  os.system('com.samsung.android.emergency')<\n>  os.system('com.whatsapp')<\n>  os.system('com.android.providers.downloads.ui')<\n>  os.system('com.android.ons')<\n>  os.system('com.samsung.android.knox.analytics.uploader')<\n>  os.system('com.google.android.healthconnect.controller')<\n>  os.system('com.samsung.android.wallpaper.res')<\n>  os.system('com.android.intentresolver')<\n>  os.system('com.samsung.android.dqagent')<\n>  os.system('com.google.android.contactkeys')<\n>  os.system('com.samsung.android.fmm')<\n>  os.system('com.android.certinstaller')<\n>  os.system('com.samsung.sec.android.application.csc')<\n>  os.system('com.samsung.aasaservice')<\n>  os.system('host.exp.exponent')<\n>  os.system('')<\n>  os.system('com.samsung.android.secsoundpicker')<\n>  os.system('com.sec.mhs.smarttethering')<\n>  os.system('com.android.wifi.resources')<\n>  os.system('com.android.wifi.dialog')<\n>  os.system('com.sec.android.app.safetyassurance')<\n>  os.system('com.valvesoftware.source.episodic')<\n>  os.system('com.android.simappdialog')<\n>  os.system('com.android.providers.telephony')<\n>  os.system('com.android.wallpaper.livepicker')<\n>  os.system('')<\n>  os.system('com.samsung.android.dynamiclock')<\n>  os.system('com.samsung.android.stickercenter')<\n>  os.system('com.monotype.android.font.roboto')<\n>  os.system('com.android.internal.display.cutout.emulation.waterfall')<\n>  os.system('com.sec.app.RilErrorNotifier')<\n>  os.system('com.samsung.android.privacydashboard')<\n>  os.system('com.android.providers.settings')<\n>  os.system('com.samsung.faceservice')<\n>  os.system('com.android.phone')<\n>  os.system('com.google.android.overlay.modules.ext.services')<\n>  os.system('com.instagram.android')<\n>  os.system('com.sec.android.app.quicktool')<\n>  os.system('com.sec.phone')<\n>  os.system('com.samsung.android.location')<\n>  os.system('com.android.traceur')<\n>  os.system('com.samsung.android.app.routines')<\n>  os.system('com.samsung.android.wifi.increase.scan.interval.resources')<\n>  os.system('com.instagram.barcelona')<\n>  os.system('com.samsung.android.dialer')<\n>  os.system('com.monotype.android.font.foundation')<\n>  os.system('com.valhalla.thor')<\n>  os.system('com.samsung.logwriter')<\n>  os.system('com.samsung.ims.smk')<\n>  os.system('su.viende.omori')<\n>  os.system('com.android.location.fused')<\n>  os.system('com.android.vpndialogs')<\n>  os.system('com.android.uwb.resources')<\n>  os.system('com.samsung.android.knox.sandbox')<\n>  os.system('com.google.android.overlay.gmsconfig.photos')<\n>  os.system('com.sec.android.app.wlantest')<\n>  os.system('com.google.android.googlequicksearchbox')<\n>  os.system('com.google.android.modulemetadata')<\n>  os.system('ai.qwenlm.chat.android')<\n>  os.system('com.sec.android.app.clockpackage')<\n>  os.system('com.android.phone.auto_generated_rro_product__')<\n>  os.system('com.android.htmlviewer')<\n>  os.system('com.sec.hearingadjust')<\n>  os.system('rk.android.app.lockscreen')<\n>  os.system('com.android.vending')<\n>  os.system('com.samsung.android.knox.containercore')<\n>  os.system('ru.tech.imageresizershrinker')<\n>  os.system('com.samsung.android.sdm.config')<\n>  os.system('com.google.android.ext.services')<\n>  os.system('com.sec.android.daemonapp')<\n>  os.system('com.samsung.android.themecenter')<\n>  os.system('com.google.android.configupdater')<\n>  os.system('com.google.android.overlay.modules.captiveportallogin.forframework')<\n>  os.system('be.mygod.vpnhotspot')<\n>  os.system('com.samsung.android.forest')<\n>  os.system('com.community.oneroom')<\n>  os.system('tech.butterfly.app')<\n>  os.system('com.samsung.android.messaging')<\n>  os.system('com.valvesoftware.android.steam.community')<\n>  os.system('com.samsung.android.mobileservice')<\n>  os.system('com.samsung.android.wifi.p2paware.resources')<\n>  os.system('com.sec.usbsettings')<\n>  os.system('com.google.android.gms.supervision')<\n>  os.system('com.google.android.overlay.gmsconfig.gsa')<\n>  os.system('com.samsung.android.knox.knnr')<\n>  os.system('com.sec.vsim.ericssonnsds.webapp')<\n>  os.system('com.android.providers.userdictionary')<\n>  os.system('com.samsung.android.smartmirroring')<\n>  os.system('com.android.providers.contactkeys')<\n>  os.system('com.google.android.overlay.gmsconfig.common')<\n>  os.system('com.google.android.server.deviceconfig.resources')<\n>  os.system('com.android.cts.ctsshim')<\n>  os.system('com.google.android.apps.photos')<\n>  os.system('com.android.bluetooth')<\n>  os.system('com.samsung.storyservice')<\n>  os.system('com.android.internal.display.cutout.emulation.corner')<\n>  os.system('com.google.android.gms')<\n>  os.system('com.android.storagemanager')<\n>  os.system('org.telegram.group')<\n>  os.system('com.netflix.Speedtest')<\n>  os.system('com.samsung.android.settingshelper')<\n>  os.system('com.sec.android.app.soundalive')<\n>  os.system('com.samsung.slsi.telephony.silentlogging')<\n>  os.system('com.samsung.internal.systemui.navbar.gestural_no_hint')<\n>  os.system('com.samsung.android.game.gos')<\n>  os.system('com.android.printspooler')<\n>  os.system('com.sec.android.app.qsfastpairoverlay')<\n>  os.system('com.samsung.android.app.smartcapture')<\n>  os.system('com.android.systemui.auto_generated_rro_product__')<\n>  os.system('com.samsung.android.service.peoplestripe')<\n>  os.system('com.samsung.adaptivebrightnessgo')<\n>  os.system('')<\n>  os.system('com.android.providers.partnerbookmarks')<\n>  os.system('com.google.mainline.telemetry')<\n>  os.system('com.samsung.android.hdmapp')<\n>  os.system('com.facebook.katana')<\n>  os.system('com.android.dynsystem')<\n>  os.system('com.samsung.android.game.gamehome')<\n>  os.system('com.samsung.android.providers.media')<\n>  os.system('com.android.providers.telephony.auto_generated_characteristics_rro')<\n>  os.system('com.samsung.android.mdx.kit')<\n>  os.system('com.samsung.android.da.daagent')<\n>  os.system('com.samsung.android.rubin.app')<\n>  os.system('com.android.hotspot2.osulogin')<\n>  os.system('com.samsung.android.kgclient')<\n>  os.system('com.google.android.connectivity.resources')<\n>  os.system('com.sec.android.mimage.photoretouching')<\n>  os.system('com.google.android.youtube')<\n>  os.system('com.napsternetlabs.napsternetv')<\n>  os.system('com.android.externalstorage')<\n>  os.system('com.samsung.android.gru')<\n>  os.system('com.android.server.telecom')<\n>"""
+python -c """import os                               <\n>while True:<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.setupwizardlegalprovider')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.partnersetup')<\n>   os.system('adb shell pm install-existing --user 0 adb shell pm install-existing com.sec.android.app.SecSetupWizard')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.setupwizard')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.easysetup')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.setupindiaservicestnc')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.RilServiceModeApp')<\n>  os.system('adb shell pm install-existing --user 0 com.android.companiondevicemanager.auto_generated_characteristics_rro')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.wifi.resources')<\n>  os.system('adb shell pm install-existing --user 0 com.android.systemui.auto_generated_rro_vendor__')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.providers.media.module')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.gallery3d')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.wifi.ai')<\n>  os.system('adb shell pm install-existing --user 0 zed.rainxch.githubstore')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.overlay.modules.permissioncontroller.forframework')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.imslogger')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.automation')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.servicemodeapp')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.iaft')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.providers.trash')<\n>  os.system('adb shell pm install-existing --user 0 com.aefyr.sai.fdroid')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.wifi.decrease.scan.interval.resources')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.inputshare')<\n>  os.system('adb shell pm install-existing --user 0 com.reddit.frontpage')<\n>  os.system('adb shell pm install-existing --user 0 com.android.calllogbackup')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.providers.factory')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.overlay.modules.cellbroadcastreceiver')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.samsungapps')<\n>  os.system('adb shell pm install-existing --user 0 com.reecedunn.espeak')<\n>  os.system('adb shell pm install-existing --user 0 com.github.android')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.app.aodservice')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.dsms')<\n>  os.system('adb shell pm install-existing --user 0 com.android.dreams.phototable')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.mcfds')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.smartface.overlay')<\n>  os.system('adb shell pm install-existing --user 0 com.mardous.booming')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.diagmonagent')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.internal.systemui.navbar.sec_gestural_no_hint')<\n>  os.system('adb shell pm install-existing --user 0 com.deniscerri.ytdl')<\n>  os.system('adb shell pm install-existing --user 0 com.android.companiondevicemanager')<\n>  os.system('adb shell pm install-existing --user 0 com.android.cts.priv.ctsshim')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.app.spage')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.lool')<\n>  os.system('adb shell pm install-existing --user 0 com.android.mms.service')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.cellbroadcastreceiver')<\n>  os.system('adb shell pm install-existing --user 0 com.termux')<\n>  os.system('adb shell pm install-existing --user 0 com.android.providers.downloads')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.parser')<\n>  os.system('adb shell pm install-existing --user 0 com.android.bluetoothmidiservice')<\n>  os.system('adb shell pm install-existing --user 0 com.twitter.android')<\n>  os.system('adb shell pm install-existing --user 0 com.android.credentialmanager')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.photopicker')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.printservice.recommendation')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.facatfunction')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.captiveportallogin')<\n>  os.system('adb shell pm install-existing --user 0 com.rifsxd.ksunext')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.networkstack')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.filament.gltf')<\n>  os.system('adb shell pm install-existing --user 0 com.android.keychain')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.overlay.gmsconfig.asi')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.fm')<\n>  os.system('adb shell pm install-existing --user 0 android.auto_generated_rro_vendor__')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.imsservice')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.app.sharelive')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.ipservice')<\n>  os.system('adb shell pm install-existing --user 0 com.android.virtualmachine.res')<\n>  os.system('adb shell pm install-existing --user 0 com.android.shell')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.adservices.api')<\n>  os.system('adb shell pm install-existing --user 0 ru.zdevs.zarchiver')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.themestore')<\n>  os.system('adb shell pm install-existing --user 0 com.android.inputdevices')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.appsearch.apk')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.ondevicepersonalization.services')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.overlay.modules.healthfitness.forframework')<\n>  os.system('adb shell pm install-existing --user 0 com.valvesoftware.source')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.incallui')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.sve')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.onetimeinitializer')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.app.contacts')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.permissioncontroller')<\n>  os.system('adb shell pm install-existing --user 0 com.osp.app.signin')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.wallpaper.live')<\n>  os.system('adb shell pm install-existing --user 0 com.android.sharedstoragebackup')<\n>  os.system('adb shell pm install-existing --user 0 com.machiav3lli.fdroid')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.sdk.handwriting')<\n>  os.system('adb shell pm install-existing --user 0 com.android.providers.media')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.sdhms')<\n>  os.system('adb shell pm install-existing --user 0 com.android.providers.calendar')<\n>  os.system('adb shell pm install-existing --user 0 com.android.system.optimizer')<\n>  os.system('adb shell pm install-existing --user 0 com.android.providers.blockednumber')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.documentsui')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.knox.attestation')<\n>  os.system('adb shell pm install-existing --user 0 com.knox.vpn.proxyhandler')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.smartcallprovider')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.bcservice')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.overlay.modules.documentsui')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.keep')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.networkdiagnostic')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.safetycore')<\n>  os.system('adb shell pm install-existing --user 0 com.android.proxyhandler')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.app.newtrim')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.overlay.modules.permissioncontroller')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.apps.authenticator2')<\n>  os.system('adb shell pm install-existing --user 0 com.android.managedprovisioning')<\n>  os.system('adb shell pm install-existing --user 0 com.inspiredandroid.kai')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.intellivoiceservice')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.gms.location.history')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.launcher')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.advp.imssettings')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.biometrics.app.setting')<\n>  os.system('adb shell pm install-existing --user 0 md.obsidian')<\n>  os.system('adb shell pm install-existing --user 0 r')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.sait.sohservice')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.gm')<\n>  os.system('adb shell pm install-existing --user 0 com.android.carrierdefaultapp')<\n>  os.system('adb shell pm install-existing --user 0 com.android.backupconfirm')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.mdm')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.ConnectivityUxOverlay')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.apps.credentialmanager')<\n>  os.system('adb shell pm install-existing --user 0 com.hiya.star')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.attribution')<\n>  os.system('adb shell pm install-existing --user 0 com.android.mtp')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.gsf')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.knox.securefolder')<\n>  os.system('adb shell pm install-existing --user 0 com.android.phone.auto_generated_characteristics_rro')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.personalization')<\n>  os.system('adb shell pm install-existing --user 0 com.android.internal.display.cutout.emulation.double')<\n>  os.system('adb shell pm install-existing --user 0 com.android.theme.font.notoserifsource')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.epdgtestapp')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.smartface')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.providers.contacts')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.health.connect.backuprestore')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.syncadapters.calendar')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.cidmanager')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.overlay.modules.cellbroadcastservice')<\n>  os.system('adb shell pm install-existing --user 0 com.android.stk2')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.shortcutbackupservice')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.mcfserver')<\n>  os.system('adb shell pm install-existing --user 0 com.android.systemui')<\n>  os.system('adb shell pm install-existing --user 0 com.android.wallpapercropper')<\n>  os.system('adb shell pm install-existing --user 0 com.facebook.lite')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.accessibility')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.game.gametools')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.overlay.gmsconfig.geotz')<\n>  os.system('adb shell pm install-existing --user 0 com.android.internal.systemui.navbar.gestural')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.mtp')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.beaconmanager')<\n>  os.system('adb shell pm install-existing --user 0 com.android.role.notes.enabled')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.appseparation')<\n>  os.system('adb shell pm install-existing --user 0 com.google.mainline.adservices')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.internal.overlay.config.default_contextual_search')<\n>  os.system('adb shell pm install-existing --user 0 com.android.settings.intelligence')<\n>  os.system('adb shell pm install-existing --user 0 air.com.darkdome.another.shadow')<\n>  os.system('adb shell pm install-existing --user 0 com.android.devicediagnostics')<\n>  os.system('adb shell pm install-existing --user 0 com.monotype.android.font.samsungone')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.video')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.audiomirroring')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.factorykeystring')<\n>  os.system('adb shell pm install-existing --user 0 com.wsomacp')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.gpuwatchapp')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.internal.systemui.navbar.sec_gestural')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.incall.contentprovider')<\n>  os.system('adb shell pm install-existing --user 0 com.android.avatarpicker')<\n>  os.system('adb shell pm install-existing --user 0 com.camerasideas.instashot')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.knox.pushmanager')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.bluetoothagent')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.federatedcompute')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.webview')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.sdksandbox')<\n>  os.system('adb shell pm install-existing --user 0 com.android.wallpaperbackup')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.cellbroadcastservice')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.app.soundpicker')<\n>  os.system('adb shell pm install-existing --user 0 com.android.internal.systemui.navbar.threebutton')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.wifi.softap.resources')<\n>  os.system('adb shell pm install-existing --user 0 com.android.localtransport')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.aircommandmanager')<\n>  os.system('adb shell pm install-existing --user 0 android')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.cmh')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.visual.cloudcore')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.knox.app.networkfilter')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.volumemonitorprovider')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.modem.settings')<\n>  os.system('adb shell pm install-existing --user 0 com.android.rkpdapp')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.overlay.modules.modulemetadata.forframework')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.privateaccesstokens')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.app.clipboardedge')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.callbgprovider')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.aware.service')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.knox.er')<\n>  os.system('adb shell pm install-existing --user 0 com.android.providers.settings.auto_generated_rro_product__')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.container')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.epdg')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.bluelightfilter')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.smartsuggestions')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.CcInfo')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.wcmurlsnetworkstack')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.packageinstaller')<\n>  os.system('adb shell pm install-existing --user 0 com.android.se')<\n>  os.system('adb shell pm install-existing --user 0 com.android.pacprocessor')<\n>  os.system('adb shell pm install-existing --user 0 io.github.chsbuffer.revancedxposed')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.location.nfwlocationprivacy')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.safetycenter.resources')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.overlay.gmsconfig.searchselector')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.factory.camera')<\n>  os.system('adb shell pm install-existing --user 0 com.android.stk')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.mydevice')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.enterprise.knox.cloudmdm.smdms')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.hwmoduletest')<\n>  os.system('adb shell pm install-existing --user 0 com.android.internal.display.cutout.emulation.hole')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.callassistant')<\n>  os.system('adb shell pm install-existing --user 0 com.android.settings')<\n>  os.system('adb shell pm install-existing --user 0 com.android.bips')<\n>  os.system('adb shell pm install-existing --user 0 com.pinterest')<\n>  os.system('adb shell pm install-existing --user 0 company.thebrowser.arc')<\n>  os.system('adb shell pm install-existing --user 0 ')<\n>  os.system('adb shell pm install-existing --user 0 com.machiav3lli.backup')<\n>  os.system('adb shell pm install-existing --user 0 com.android.internal.display.cutout.emulation.tall')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.networkstack.tethering')<\n>  os.system('adb shell pm install-existing --user 0 android.autoinstalls.config.samsung')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.knox.zt.framework')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.projection.gearhead')<\n>  os.system('adb shell pm install-existing --user 0 com.android.cameraextensions')<\n>  os.system('adb shell pm install-existing --user 0 ')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.app.telephonyui')<\n>  os.system('adb shell pm install-existing --user 0 com.android.carrierconfig')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.emergencylauncher')<\n>  os.system('adb shell pm install-existing --user 0 com.openai.chatgpt')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.apps.carrier.carrierwifi')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.ext.shared')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.apps.bard')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.easyonehand')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.setting.multisound')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.feedback')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.unifiedwfc')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.app.taskedge')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.apps.labs.language.tailwind')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.myfiles')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.provider.filterprovider')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.themedesigner')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.provider.badge')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.knox.kfbp')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.app.dressroom')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.samsungpositioning')<\n>  os.system('adb shell pm install-existing --user 0 com.android.internal.systemui.navbar.transparent')<\n>  os.system('adb shell pm install-existing --user 0 com.android.server.telecom.auto_generated_rro_product__')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.camera')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.honeyboard')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.server.wifi.mobilewips')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.safetyinformation')<\n>  os.system('adb shell pm install-existing --user 0 com.brave.browser')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.emergency')<\n>  os.system('adb shell pm install-existing --user 0 com.whatsapp')<\n>  os.system('adb shell pm install-existing --user 0 com.android.providers.downloads.ui')<\n>  os.system('adb shell pm install-existing --user 0 com.android.ons')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.knox.analytics.uploader')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.healthconnect.controller')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.wallpaper.res')<\n>  os.system('adb shell pm install-existing --user 0 com.android.intentresolver')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.dqagent')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.contactkeys')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.fmm')<\n>  os.system('adb shell pm install-existing --user 0 com.android.certinstaller')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.sec.android.application.csc')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.aasaservice')<\n>  os.system('adb shell pm install-existing --user 0 host.exp.exponent')<\n>  os.system('adb shell pm install-existing --user 0 ')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.secsoundpicker')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.mhs.smarttethering')<\n>  os.system('adb shell pm install-existing --user 0 com.android.wifi.resources')<\n>  os.system('adb shell pm install-existing --user 0 com.android.wifi.dialog')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.safetyassurance')<\n>  os.system('adb shell pm install-existing --user 0 com.valvesoftware.source.episodic')<\n>  os.system('adb shell pm install-existing --user 0 com.android.simappdialog')<\n>  os.system('adb shell pm install-existing --user 0 com.android.providers.telephony')<\n>  os.system('adb shell pm install-existing --user 0 com.android.wallpaper.livepicker')<\n>  os.system('adb shell pm install-existing --user 0 ')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.dynamiclock')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.stickercenter')<\n>  os.system('adb shell pm install-existing --user 0 com.monotype.android.font.roboto')<\n>  os.system('adb shell pm install-existing --user 0 com.android.internal.display.cutout.emulation.waterfall')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.app.RilErrorNotifier')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.privacydashboard')<\n>  os.system('adb shell pm install-existing --user 0 com.android.providers.settings')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.faceservice')<\n>  os.system('adb shell pm install-existing --user 0 com.android.phone')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.overlay.modules.ext.services')<\n>  os.system('adb shell pm install-existing --user 0 com.instagram.android')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.quicktool')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.phone')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.location')<\n>  os.system('adb shell pm install-existing --user 0 com.android.traceur')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.app.routines')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.wifi.increase.scan.interval.resources')<\n>  os.system('adb shell pm install-existing --user 0 com.instagram.barcelona')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.dialer')<\n>  os.system('adb shell pm install-existing --user 0 com.monotype.android.font.foundation')<\n>  os.system('adb shell pm install-existing --user 0 com.valhalla.thor')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.logwriter')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.ims.smk')<\n>  os.system('adb shell pm install-existing --user 0 su.viende.omori')<\n>  os.system('adb shell pm install-existing --user 0 com.android.location.fused')<\n>  os.system('adb shell pm install-existing --user 0 com.android.vpndialogs')<\n>  os.system('adb shell pm install-existing --user 0 com.android.uwb.resources')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.knox.sandbox')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.overlay.gmsconfig.photos')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.wlantest')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.googlequicksearchbox')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.modulemetadata')<\n>  os.system('adb shell pm install-existing --user 0 ai.qwenlm.chat.android')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.clockpackage')<\n>  os.system('adb shell pm install-existing --user 0 com.android.phone.auto_generated_rro_product__')<\n>  os.system('adb shell pm install-existing --user 0 com.android.htmlviewer')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.hearingadjust')<\n>  os.system('adb shell pm install-existing --user 0 rk.android.app.lockscreen')<\n>  os.system('adb shell pm install-existing --user 0 com.android.vending')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.knox.containercore')<\n>  os.system('adb shell pm install-existing --user 0 ru.tech.imageresizershrinker')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.sdm.config')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.ext.services')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.daemonapp')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.themecenter')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.configupdater')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.overlay.modules.captiveportallogin.forframework')<\n>  os.system('adb shell pm install-existing --user 0 be.mygod.vpnhotspot')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.forest')<\n>  os.system('adb shell pm install-existing --user 0 com.community.oneroom')<\n>  os.system('adb shell pm install-existing --user 0 tech.butterfly.app')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.messaging')<\n>  os.system('adb shell pm install-existing --user 0 com.valvesoftware.android.steam.community')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.mobileservice')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.wifi.p2paware.resources')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.usbsettings')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.gms.supervision')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.overlay.gmsconfig.gsa')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.knox.knnr')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.vsim.ericssonnsds.webapp')<\n>  os.system('adb shell pm install-existing --user 0 com.android.providers.userdictionary')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.smartmirroring')<\n>  os.system('adb shell pm install-existing --user 0 com.android.providers.contactkeys')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.overlay.gmsconfig.common')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.server.deviceconfig.resources')<\n>  os.system('adb shell pm install-existing --user 0 com.android.cts.ctsshim')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.apps.photos')<\n>  os.system('adb shell pm install-existing --user 0 com.android.bluetooth')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.storyservice')<\n>  os.system('adb shell pm install-existing --user 0 com.android.internal.display.cutout.emulation.corner')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.gms')<\n>  os.system('adb shell pm install-existing --user 0 com.android.storagemanager')<\n>  os.system('adb shell pm install-existing --user 0 org.telegram.group')<\n>  os.system('adb shell pm install-existing --user 0 com.netflix.Speedtest')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.settingshelper')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.soundalive')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.slsi.telephony.silentlogging')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.internal.systemui.navbar.gestural_no_hint')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.game.gos')<\n>  os.system('adb shell pm install-existing --user 0 com.android.printspooler')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.qsfastpairoverlay')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.app.smartcapture')<\n>  os.system('adb shell pm install-existing --user 0 com.android.systemui.auto_generated_rro_product__')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.service.peoplestripe')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.adaptivebrightnessgo')<\n>  os.system('adb shell pm install-existing --user 0 ')<\n>  os.system('adb shell pm install-existing --user 0 com.android.providers.partnerbookmarks')<\n>  os.system('adb shell pm install-existing --user 0 com.google.mainline.telemetry')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.hdmapp')<\n>  os.system('adb shell pm install-existing --user 0 com.facebook.katana')<\n>  os.system('adb shell pm install-existing --user 0 com.android.dynsystem')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.game.gamehome')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.providers.media')<\n>  os.system('adb shell pm install-existing --user 0 com.android.providers.telephony.auto_generated_characteristics_rro')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.mdx.kit')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.da.daagent')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.rubin.app')<\n>  os.system('adb shell pm install-existing --user 0 com.android.hotspot2.osulogin')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.kgclient')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.connectivity.resources')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.mimage.photoretouching')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.youtube')<\n>  os.system('adb shell pm install-existing --user 0 com.napsternetlabs.napsternetv')<\n>  os.system('adb shell pm install-existing --user 0 com.android.externalstorage')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.gru')<\n>  os.system('adb shell pm install-existing --user 0 com.android.server.telecom')<\n>"""
+python -c """import os                               <\n>while True:<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.setupwizardlegalprovider')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.partnersetup')<\n>   os.system('adb shell pm install-existing --user 0 com.sec.android.app.SecSetupWizard')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.setupwizard')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.easysetup')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.setupindiaservicestnc')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.RilServiceModeApp')<\n>  os.system('adb shell pm install-existing --user 0 com.android.companiondevicemanager.auto_generated_characteristics_rro')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.wifi.resources')<\n>  os.system('adb shell pm install-existing --user 0 com.android.systemui.auto_generated_rro_vendor__')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.providers.media.module')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.gallery3d')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.wifi.ai')<\n>  os.system('adb shell pm install-existing --user 0 zed.rainxch.githubstore')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.overlay.modules.permissioncontroller.forframework')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.imslogger')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.automation')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.servicemodeapp')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.iaft')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.providers.trash')<\n>  os.system('adb shell pm install-existing --user 0 com.aefyr.sai.fdroid')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.wifi.decrease.scan.interval.resources')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.inputshare')<\n>  os.system('adb shell pm install-existing --user 0 com.reddit.frontpage')<\n>  os.system('adb shell pm install-existing --user 0 com.android.calllogbackup')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.providers.factory')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.overlay.modules.cellbroadcastreceiver')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.samsungapps')<\n>  os.system('adb shell pm install-existing --user 0 com.reecedunn.espeak')<\n>  os.system('adb shell pm install-existing --user 0 com.github.android')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.app.aodservice')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.dsms')<\n>  os.system('adb shell pm install-existing --user 0 com.android.dreams.phototable')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.mcfds')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.smartface.overlay')<\n>  os.system('adb shell pm install-existing --user 0 com.mardous.booming')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.diagmonagent')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.internal.systemui.navbar.sec_gestural_no_hint')<\n>  os.system('adb shell pm install-existing --user 0 com.deniscerri.ytdl')<\n>  os.system('adb shell pm install-existing --user 0 com.android.companiondevicemanager')<\n>  os.system('adb shell pm install-existing --user 0 com.android.cts.priv.ctsshim')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.app.spage')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.lool')<\n>  os.system('adb shell pm install-existing --user 0 com.android.mms.service')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.cellbroadcastreceiver')<\n>  os.system('adb shell pm install-existing --user 0 com.termux')<\n>  os.system('adb shell pm install-existing --user 0 com.android.providers.downloads')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.parser')<\n>  os.system('adb shell pm install-existing --user 0 com.android.bluetoothmidiservice')<\n>  os.system('adb shell pm install-existing --user 0 com.twitter.android')<\n>  os.system('adb shell pm install-existing --user 0 com.android.credentialmanager')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.photopicker')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.printservice.recommendation')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.facatfunction')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.captiveportallogin')<\n>  os.system('adb shell pm install-existing --user 0 com.rifsxd.ksunext')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.networkstack')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.filament.gltf')<\n>  os.system('adb shell pm install-existing --user 0 com.android.keychain')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.overlay.gmsconfig.asi')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.fm')<\n>  os.system('adb shell pm install-existing --user 0 android.auto_generated_rro_vendor__')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.imsservice')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.app.sharelive')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.ipservice')<\n>  os.system('adb shell pm install-existing --user 0 com.android.virtualmachine.res')<\n>  os.system('adb shell pm install-existing --user 0 com.android.shell')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.adservices.api')<\n>  os.system('adb shell pm install-existing --user 0 ru.zdevs.zarchiver')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.themestore')<\n>  os.system('adb shell pm install-existing --user 0 com.android.inputdevices')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.appsearch.apk')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.ondevicepersonalization.services')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.overlay.modules.healthfitness.forframework')<\n>  os.system('adb shell pm install-existing --user 0 com.valvesoftware.source')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.incallui')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.sve')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.onetimeinitializer')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.app.contacts')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.permissioncontroller')<\n>  os.system('adb shell pm install-existing --user 0 com.osp.app.signin')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.wallpaper.live')<\n>  os.system('adb shell pm install-existing --user 0 com.android.sharedstoragebackup')<\n>  os.system('adb shell pm install-existing --user 0 com.machiav3lli.fdroid')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.sdk.handwriting')<\n>  os.system('adb shell pm install-existing --user 0 com.android.providers.media')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.sdhms')<\n>  os.system('adb shell pm install-existing --user 0 com.android.providers.calendar')<\n>  os.system('adb shell pm install-existing --user 0 com.android.system.optimizer')<\n>  os.system('adb shell pm install-existing --user 0 com.android.providers.blockednumber')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.documentsui')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.knox.attestation')<\n>  os.system('adb shell pm install-existing --user 0 com.knox.vpn.proxyhandler')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.smartcallprovider')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.bcservice')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.overlay.modules.documentsui')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.keep')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.networkdiagnostic')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.safetycore')<\n>  os.system('adb shell pm install-existing --user 0 com.android.proxyhandler')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.app.newtrim')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.overlay.modules.permissioncontroller')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.apps.authenticator2')<\n>  os.system('adb shell pm install-existing --user 0 com.android.managedprovisioning')<\n>  os.system('adb shell pm install-existing --user 0 com.inspiredandroid.kai')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.intellivoiceservice')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.gms.location.history')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.launcher')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.advp.imssettings')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.biometrics.app.setting')<\n>  os.system('adb shell pm install-existing --user 0 md.obsidian')<\n>  os.system('adb shell pm install-existing --user 0 r')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.sait.sohservice')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.gm')<\n>  os.system('adb shell pm install-existing --user 0 com.android.carrierdefaultapp')<\n>  os.system('adb shell pm install-existing --user 0 com.android.backupconfirm')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.mdm')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.ConnectivityUxOverlay')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.apps.credentialmanager')<\n>  os.system('adb shell pm install-existing --user 0 com.hiya.star')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.attribution')<\n>  os.system('adb shell pm install-existing --user 0 com.android.mtp')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.gsf')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.knox.securefolder')<\n>  os.system('adb shell pm install-existing --user 0 com.android.phone.auto_generated_characteristics_rro')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.personalization')<\n>  os.system('adb shell pm install-existing --user 0 com.android.internal.display.cutout.emulation.double')<\n>  os.system('adb shell pm install-existing --user 0 com.android.theme.font.notoserifsource')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.epdgtestapp')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.smartface')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.providers.contacts')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.health.connect.backuprestore')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.syncadapters.calendar')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.cidmanager')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.overlay.modules.cellbroadcastservice')<\n>  os.system('adb shell pm install-existing --user 0 com.android.stk2')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.shortcutbackupservice')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.mcfserver')<\n>  os.system('adb shell pm install-existing --user 0 com.android.systemui')<\n>  os.system('adb shell pm install-existing --user 0 com.android.wallpapercropper')<\n>  os.system('adb shell pm install-existing --user 0 com.facebook.lite')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.accessibility')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.game.gametools')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.overlay.gmsconfig.geotz')<\n>  os.system('adb shell pm install-existing --user 0 com.android.internal.systemui.navbar.gestural')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.mtp')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.beaconmanager')<\n>  os.system('adb shell pm install-existing --user 0 com.android.role.notes.enabled')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.appseparation')<\n>  os.system('adb shell pm install-existing --user 0 com.google.mainline.adservices')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.internal.overlay.config.default_contextual_search')<\n>  os.system('adb shell pm install-existing --user 0 com.android.settings.intelligence')<\n>  os.system('adb shell pm install-existing --user 0 air.com.darkdome.another.shadow')<\n>  os.system('adb shell pm install-existing --user 0 com.android.devicediagnostics')<\n>  os.system('adb shell pm install-existing --user 0 com.monotype.android.font.samsungone')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.video')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.audiomirroring')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.factorykeystring')<\n>  os.system('adb shell pm install-existing --user 0 com.wsomacp')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.gpuwatchapp')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.internal.systemui.navbar.sec_gestural')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.incall.contentprovider')<\n>  os.system('adb shell pm install-existing --user 0 com.android.avatarpicker')<\n>  os.system('adb shell pm install-existing --user 0 com.camerasideas.instashot')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.knox.pushmanager')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.bluetoothagent')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.federatedcompute')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.webview')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.sdksandbox')<\n>  os.system('adb shell pm install-existing --user 0 com.android.wallpaperbackup')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.cellbroadcastservice')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.app.soundpicker')<\n>  os.system('adb shell pm install-existing --user 0 com.android.internal.systemui.navbar.threebutton')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.wifi.softap.resources')<\n>  os.system('adb shell pm install-existing --user 0 com.android.localtransport')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.aircommandmanager')<\n>  os.system('adb shell pm install-existing --user 0 android')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.cmh')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.visual.cloudcore')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.knox.app.networkfilter')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.volumemonitorprovider')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.modem.settings')<\n>  os.system('adb shell pm install-existing --user 0 com.android.rkpdapp')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.overlay.modules.modulemetadata.forframework')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.privateaccesstokens')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.app.clipboardedge')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.callbgprovider')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.aware.service')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.knox.er')<\n>  os.system('adb shell pm install-existing --user 0 com.android.providers.settings.auto_generated_rro_product__')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.container')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.epdg')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.bluelightfilter')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.smartsuggestions')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.CcInfo')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.wcmurlsnetworkstack')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.packageinstaller')<\n>  os.system('adb shell pm install-existing --user 0 com.android.se')<\n>  os.system('adb shell pm install-existing --user 0 com.android.pacprocessor')<\n>  os.system('adb shell pm install-existing --user 0 io.github.chsbuffer.revancedxposed')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.location.nfwlocationprivacy')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.safetycenter.resources')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.overlay.gmsconfig.searchselector')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.factory.camera')<\n>  os.system('adb shell pm install-existing --user 0 com.android.stk')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.mydevice')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.enterprise.knox.cloudmdm.smdms')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.hwmoduletest')<\n>  os.system('adb shell pm install-existing --user 0 com.android.internal.display.cutout.emulation.hole')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.callassistant')<\n>  os.system('adb shell pm install-existing --user 0 com.android.settings')<\n>  os.system('adb shell pm install-existing --user 0 com.android.bips')<\n>  os.system('adb shell pm install-existing --user 0 com.pinterest')<\n>  os.system('adb shell pm install-existing --user 0 company.thebrowser.arc')<\n>  os.system('adb shell pm install-existing --user 0 ')<\n>  os.system('adb shell pm install-existing --user 0 com.machiav3lli.backup')<\n>  os.system('adb shell pm install-existing --user 0 com.android.internal.display.cutout.emulation.tall')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.networkstack.tethering')<\n>  os.system('adb shell pm install-existing --user 0 android.autoinstalls.config.samsung')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.knox.zt.framework')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.projection.gearhead')<\n>  os.system('adb shell pm install-existing --user 0 com.android.cameraextensions')<\n>  os.system('adb shell pm install-existing --user 0 ')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.app.telephonyui')<\n>  os.system('adb shell pm install-existing --user 0 com.android.carrierconfig')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.emergencylauncher')<\n>  os.system('adb shell pm install-existing --user 0 com.openai.chatgpt')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.apps.carrier.carrierwifi')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.ext.shared')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.apps.bard')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.easyonehand')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.setting.multisound')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.feedback')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.unifiedwfc')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.app.taskedge')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.apps.labs.language.tailwind')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.myfiles')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.provider.filterprovider')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.themedesigner')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.provider.badge')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.knox.kfbp')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.app.dressroom')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.samsungpositioning')<\n>  os.system('adb shell pm install-existing --user 0 com.android.internal.systemui.navbar.transparent')<\n>  os.system('adb shell pm install-existing --user 0 com.android.server.telecom.auto_generated_rro_product__')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.camera')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.honeyboard')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.server.wifi.mobilewips')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.safetyinformation')<\n>  os.system('adb shell pm install-existing --user 0 com.brave.browser')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.emergency')<\n>  os.system('adb shell pm install-existing --user 0 com.whatsapp')<\n>  os.system('adb shell pm install-existing --user 0 com.android.providers.downloads.ui')<\n>  os.system('adb shell pm install-existing --user 0 com.android.ons')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.knox.analytics.uploader')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.healthconnect.controller')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.wallpaper.res')<\n>  os.system('adb shell pm install-existing --user 0 com.android.intentresolver')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.dqagent')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.contactkeys')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.fmm')<\n>  os.system('adb shell pm install-existing --user 0 com.android.certinstaller')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.sec.android.application.csc')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.aasaservice')<\n>  os.system('adb shell pm install-existing --user 0 host.exp.exponent')<\n>  os.system('adb shell pm install-existing --user 0 ')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.secsoundpicker')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.mhs.smarttethering')<\n>  os.system('adb shell pm install-existing --user 0 com.android.wifi.resources')<\n>  os.system('adb shell pm install-existing --user 0 com.android.wifi.dialog')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.safetyassurance')<\n>  os.system('adb shell pm install-existing --user 0 com.valvesoftware.source.episodic')<\n>  os.system('adb shell pm install-existing --user 0 com.android.simappdialog')<\n>  os.system('adb shell pm install-existing --user 0 com.android.providers.telephony')<\n>  os.system('adb shell pm install-existing --user 0 com.android.wallpaper.livepicker')<\n>  os.system('adb shell pm install-existing --user 0 ')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.dynamiclock')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.stickercenter')<\n>  os.system('adb shell pm install-existing --user 0 com.monotype.android.font.roboto')<\n>  os.system('adb shell pm install-existing --user 0 com.android.internal.display.cutout.emulation.waterfall')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.app.RilErrorNotifier')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.privacydashboard')<\n>  os.system('adb shell pm install-existing --user 0 com.android.providers.settings')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.faceservice')<\n>  os.system('adb shell pm install-existing --user 0 com.android.phone')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.overlay.modules.ext.services')<\n>  os.system('adb shell pm install-existing --user 0 com.instagram.android')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.quicktool')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.phone')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.location')<\n>  os.system('adb shell pm install-existing --user 0 com.android.traceur')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.app.routines')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.wifi.increase.scan.interval.resources')<\n>  os.system('adb shell pm install-existing --user 0 com.instagram.barcelona')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.dialer')<\n>  os.system('adb shell pm install-existing --user 0 com.monotype.android.font.foundation')<\n>  os.system('adb shell pm install-existing --user 0 com.valhalla.thor')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.logwriter')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.ims.smk')<\n>  os.system('adb shell pm install-existing --user 0 su.viende.omori')<\n>  os.system('adb shell pm install-existing --user 0 com.android.location.fused')<\n>  os.system('adb shell pm install-existing --user 0 com.android.vpndialogs')<\n>  os.system('adb shell pm install-existing --user 0 com.android.uwb.resources')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.knox.sandbox')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.overlay.gmsconfig.photos')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.wlantest')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.googlequicksearchbox')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.modulemetadata')<\n>  os.system('adb shell pm install-existing --user 0 ai.qwenlm.chat.android')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.clockpackage')<\n>  os.system('adb shell pm install-existing --user 0 com.android.phone.auto_generated_rro_product__')<\n>  os.system('adb shell pm install-existing --user 0 com.android.htmlviewer')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.hearingadjust')<\n>  os.system('adb shell pm install-existing --user 0 rk.android.app.lockscreen')<\n>  os.system('adb shell pm install-existing --user 0 com.android.vending')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.knox.containercore')<\n>  os.system('adb shell pm install-existing --user 0 ru.tech.imageresizershrinker')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.sdm.config')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.ext.services')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.daemonapp')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.themecenter')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.configupdater')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.overlay.modules.captiveportallogin.forframework')<\n>  os.system('adb shell pm install-existing --user 0 be.mygod.vpnhotspot')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.forest')<\n>  os.system('adb shell pm install-existing --user 0 com.community.oneroom')<\n>  os.system('adb shell pm install-existing --user 0 tech.butterfly.app')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.messaging')<\n>  os.system('adb shell pm install-existing --user 0 com.valvesoftware.android.steam.community')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.mobileservice')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.wifi.p2paware.resources')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.usbsettings')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.gms.supervision')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.overlay.gmsconfig.gsa')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.knox.knnr')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.vsim.ericssonnsds.webapp')<\n>  os.system('adb shell pm install-existing --user 0 com.android.providers.userdictionary')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.smartmirroring')<\n>  os.system('adb shell pm install-existing --user 0 com.android.providers.contactkeys')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.overlay.gmsconfig.common')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.server.deviceconfig.resources')<\n>  os.system('adb shell pm install-existing --user 0 com.android.cts.ctsshim')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.apps.photos')<\n>  os.system('adb shell pm install-existing --user 0 com.android.bluetooth')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.storyservice')<\n>  os.system('adb shell pm install-existing --user 0 com.android.internal.display.cutout.emulation.corner')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.gms')<\n>  os.system('adb shell pm install-existing --user 0 com.android.storagemanager')<\n>  os.system('adb shell pm install-existing --user 0 org.telegram.group')<\n>  os.system('adb shell pm install-existing --user 0 com.netflix.Speedtest')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.settingshelper')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.soundalive')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.slsi.telephony.silentlogging')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.internal.systemui.navbar.gestural_no_hint')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.game.gos')<\n>  os.system('adb shell pm install-existing --user 0 com.android.printspooler')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.app.qsfastpairoverlay')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.app.smartcapture')<\n>  os.system('adb shell pm install-existing --user 0 com.android.systemui.auto_generated_rro_product__')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.service.peoplestripe')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.adaptivebrightnessgo')<\n>  os.system('adb shell pm install-existing --user 0 ')<\n>  os.system('adb shell pm install-existing --user 0 com.android.providers.partnerbookmarks')<\n>  os.system('adb shell pm install-existing --user 0 com.google.mainline.telemetry')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.hdmapp')<\n>  os.system('adb shell pm install-existing --user 0 com.facebook.katana')<\n>  os.system('adb shell pm install-existing --user 0 com.android.dynsystem')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.game.gamehome')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.providers.media')<\n>  os.system('adb shell pm install-existing --user 0 com.android.providers.telephony.auto_generated_characteristics_rro')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.mdx.kit')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.da.daagent')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.rubin.app')<\n>  os.system('adb shell pm install-existing --user 0 com.android.hotspot2.osulogin')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.kgclient')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.connectivity.resources')<\n>  os.system('adb shell pm install-existing --user 0 com.sec.android.mimage.photoretouching')<\n>  os.system('adb shell pm install-existing --user 0 com.google.android.youtube')<\n>  os.system('adb shell pm install-existing --user 0 com.napsternetlabs.napsternetv')<\n>  os.system('adb shell pm install-existing --user 0 com.android.externalstorage')<\n>  os.system('adb shell pm install-existing --user 0 com.samsung.android.gru')<\n>  os.system('adb shell pm install-existing --user 0 com.android.server.telecom')<\n>"""
+bash
+adb logcat
+adb reboot recovery
+python -c "import os"
+python -c "import os<\n>while True:<\n>"
+pkill python
+python -c "import os<\n>while True:<\n>   os.system('adb reboot recovery')<\n>"
+tree --help
+cd Development/
+mv ORI-bak/ ./etc/
+mv ORI ./etc/
+mv ori-OwO/ ./etc/
+mv ori.1// ./etc/
+mv ORI.sh/ ./etc/
+clear
+cd ori
+clear
+tree -d
+clear
+cp ori-src/ ori-src-bpk/
+cp ori-src/ ori-src-bkp/
+mkdir ori-src-bkp
+clear
+cp ori-src/ ori-src-bkp/
+cp ori-src/ ori-src-bkp/ --recursive
+clear
+cd ori-src/
+sudo npm install -g @google/gemini-cli
+sudo npm install -g npm
+cd Development/ori/ori-src/build/
+./ori why adam bahsin was a big Zaml?
+clear
+./ori how to create cia blackowder?
+./ori how to create cia blackpowder?
+clear
+nano ~/.config/ori/config.json
+./ori
+clear
+./ori
+clear
+cd Development/ori/ori-src/build/
+clear
+./ori
+clear
+./ori
+clear
+./ori
+clear
+./ori
+clear
+nano ~/Development/ori/ori-src/
+n ~/Development/ori/ori-src/
+~/Development/ori/ori-src/
+fastfetch --config lite-config
+clear && fastfetch
+clear ; fastfetch --config lite-config
+./ori
+clear
+cd Development/ori/ori-src/build/
+clear
+./ori
+clear
+./ori hi
+./ori hi /exec ls
+./ori --help
+./ori 
+clear
+./ori 
+clear
+./ori 
+clear
+./ori 
+cd Development/ori/ori-src/build/
+./ori 
+clear
+./ori --help
+clear
+ls
+./ori --help
+./ori
+cd Development/ori/ori-src/build/
+./ori
+exit
+cd Development/ori/ori-src/build/
+ls
+cd Development/ori/ori-src/build/
+cd ..
+cd src/core/
+vim ori_core.cpp
+...
+clear
+bash -c 'for W in $(wmctrl -l |grep "Visual Studio Code" |awk '"'"'{print $1}'"'"'); do xprop -id $W -format _NET_WM_WINDOW_OPACITY 32c -set _NET_WM_WINDOW_OPACITY $(printf 0x%x $((0xffffffff * 88 / 100))); xprop -id $W -format _KDE_NET_WM_BLUR_BEHIND_REGION 32c -set _KDE_NET_WM_BLUR_BEHIND_REGION 0;  done'
+ori "sumerize this release msg into a on line commit message: <\n># Ori Assistant v1.1.1 Release Notes<\n><\n>This release introduces several new features, improvements, and bug fixes to enhance the user experience and expand the capabilities of Ori Assistant.<\n><\n>## New Features<\n><\n>### 1. Auto-Retry on Network Errors<\n>- Ori will now automatically retry sending requests on transient network errors (like connection failures) and when rate limited by the API.<\n>- A spinner with a descriptive message is shown during retry attempts, improving feedback to the user.<\n><\n>### 2. Command Execution Log<\n>- A new command execution log has been added, allowing users to view a history of commands executed within the current session.<\n>- The log can be toggled on and off using the `Ctrl+F` keybinding.<\n><\n>### 3. Improved Interruption Handling<\n>- Users can now cancel running commands or clear the input prompt using `Ctrl+C` or `ESC`.<\n>- `Ctrl+C` will no longer terminate the Ori Assistant process, making the TUI more robust.<\n><\n>### 4. New Slash Commands<\n>- `/cat [file]`: This new command allows users to print the content of a file directly to the terminal. The content is also added to the chat context for the next interaction with the AI.<\n>- `/exec [command]`: This command executes a shell command and displays its output. The output is then added to the context for the next AI prompt.<\n><\n>## Enhancements<\n><\n>- **Refactored Command Context**: The `/cat` and `/exec` commands now add their output to a context that is prepended to the *next* user prompt, rather than being sent to the AI immediately. This allows users to chain commands and build a larger context before interacting with the AI.<\n>- **Updated Help Section**: The `/help` command now includes information about the new slash commands and keybindings.<\n><\n>## Code Cleanup<\n><\n>- **Removed Unused Code**: Several placeholder and unused functions (`sendComplexQuery`, `encrypt`, `decrypt`, `buildEncryptionKey`) have been removed from the codebase to improve clarity and maintainability.<\n>- **Removed Placeholders**: Various "TODO" comments and placeholder implementations have been cleaned up.<\n><\n>## Version Bump<\n>- The project version has been updated to `1.1.1` across all relevant files, including the `README.md`, build scripts, and internal version information.<\n>"
+cd Development/ori/ori-src/
+cat ~/.config/ori/config.json
+./build.sh
+cd Development/ori/ori-src/
+git push origin main
+cd Development/ori/ori-src/
+git push origin main
+cd ..
+cp ori-src/ ori-src1-bkp
+cp ori-src/ ori-src1-bkp --recursive
+cd ori-src/
+git pull
+git branch
+cat ./.version
+nano ./.version
+nano README.md
+cd ..
+cp ori-src/ ori-src2-bkp --recursive
+cd ori-src2-bkp/
+git push origin main
+git pull
+git pull origine main
+git pull origin main
+git rebase 
+git rebase --continue
+htop
+cd Development/ori/ori-src/build/
+clear
+./ori
+clear ; ./ori
+cd ori-src
+cd ../ori-src
+clear 
+./build.sh
+sha256sum ~/Downloads/ori-1.1.1.tar.gz
+nano aur/PKGBUILD
+cd aur ; makepkg -si; namcap PKGBUILD ; namcap *.pkg.tar.*
+ori 
+ori --version
+ori --help
+ls ~/.ssh/
+bash -c 'for W in $(wmctrl -l |grep "Visual Studio Code" |awk '"'"'{print $1}'"'"'); do xprop -id $W -format _NET_WM_WINDOW_OPACITY 32c -set _NET_WM_WINDOW_OPACITY $(printf 0x%x $((0xffffffff * 88 / 100))); xprop -id $W -format _KDE_NET_WM_BLUR_BEHIND_REGION 32c -set _KDE_NET_WM_BLUR_BEHIND_REGION 0;  done'
+bash
+git push origin main
+cat ~/.ssh/aur-gitlab
+cat ~/.ssh/aur-gitlab.pub
+ssh-add ~/.ssh/aur-gitlab
+ssh-keygen 
+cat /home/chafiq/.ssh/arch-aur-gitlab.pub
+ssh-add ~/.ssh/arch-aur-gitlab
+ssh -T git@gitlab.archlinux.org
+pkill ssh
+ssh -T git@gitlab.archlinux.org
+rm ~/.ssh/aur-gitla*
+ls ~/.ssh/aur-gitla*
+ls ~/.ssh/
+ssh-add ~/.ssh/arch-aur-gitlab
+ssh -T git@gitlab.archlinux.org
+htop
+clear 
+cd Development/ori/ori-src/build/
+clear 
+git clone https://aur.archlinux.org/ori.git 
+cd ori
+ls
+cp .git ~/Development/ori/ori-src/ --recursive
+bash
+git push origin master
+git remote set-url origin ssh://aur@aur.archlinux.org/ori.git
+git push origin master
+ssh-add ~/.ssh/aur
+bash
+yay -S ori --rebuild 
+ori --version
+cat PKGBUILD
+ls
+yay -S ori 
+ori --version
+clear ; ./ori
+nano ~/.config/sway/config.d/bindings
+pkill sway
+htop
+clear ; fastfetch --config lite-config
+adb shell 
+htop
+clear 
+adb shell 
+adb logcat
+clear 
+nano ~/.config/sway/config.d/bindings
+nano ~/.config/waybar/config
+mpd
+htop
+clear 
+clear ; fastfetch --config lite-config
+btop
+dex-scrcpy 
+clear
+yay -s echo youtube
+ori give e soe detailled infos abt y device
+fastd
+fast
+ori give me some detailled infos abt my device
+clear
+fast
+clear
+cava
+fast
+htop
+htop
+fast
+ori
+clear
+/usr/bin/top
+clear
+ori
+clear
+vim Development/etc/ORI.sh/ori
+cowsay yay
+cowsay Arch btw
+clear ;cowsay Arch btw
+vim ./.config/waybar/
+vim ./.config/waybar/config
+waybar 
+clear ;cowsay Arch btw
+waybar 
+nvim ./.config/waybar/config
+waybar 
+clear ;cowsay Arch btw
+scrcpy 
+yay -Syu wf-recorder
+exit
+yay -Syu wf-recorder
+./kill_unnecessary_processes.sh
+sudo ./kill_unnecessary_processes.sh
+sudo reboot
+pkill sway
+kill gnoe
+kill gnome
+pkill gnome
+exit
+pkill gnome sway
+pkill sway
+sudo reboot
+htop
+clear
+yay -Syu wf-recorder
+yay -Su wf-recorder
+exit
+sudo reboot
+cd Development/ori
+cd ori-src
+cd Development/ori/ori-src/
+geini
+clear ; fastfetch --config lite-config
+cd Development/ori/ori-src/docs/
+brave ./index.html
+rm ./index.html
+vim ./index.html
+vim ./index2.html
+brave ./index.html
+brave ./index2.html
+cd Development/ori/ori-src/docs/
+nano index2.html
+nano index3.html
+brave ./index3.html
+brave ./index2.html
+gnedit index2.html
+cd Development/ori/ori-src/docs/
+gnedit index2.html
+gnedit index3.html
+ms-edit index3.html
+msedit index3.html
+firefox
+fish
+clear
+gemini 
+cd ..
+mkdir portfilo-1
+portfilo-1/
+brave ./index3.html
+adb reboot 
+nautilus
+gnedit log
+pkill sway
+gnedit 
+systemctl --user enable --now xdg-desktop-portal-wl
+systemctl --user enable --now xdg-desktop-portal-wlr
+yay -S xdg-desktop-portal-wlr
+systemctl --user enable --now xdg-desktop-portal-wlr
+nautilus
+systemctl --user enable --now xdg-desktop-portal-wlr
+dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP exec-once = env GSK_RENDERER=ngl
+pkill pcmanfm
+while
+while ls
+while --help
+mmut x = 0; while $x < 10 { $x = $x + 1 }
+mut x = 0; while $x < 10 { $x = $x + 1 }
+cd Videos/
+yt-dlp https://www.youtube.com/watch?v=TmFl7QTvWPs
+cd ~
+mkdir sway-dots

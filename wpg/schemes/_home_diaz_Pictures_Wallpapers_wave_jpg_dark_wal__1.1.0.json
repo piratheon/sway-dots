@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/diaz/Pictures/Wallpapers/wave.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#145e72",
+        "foreground": "#e1eef5",
+        "cursor": "#e1eef5"
+    },
+    "colors": {
+        "color0": "#145e72",
+        "color1": "#6FC5E0",
+        "color2": "#94DAED",
+        "color3": "#84DAF5",
+        "color4": "#ACD8FF",
+        "color5": "#B2EBFD",
+        "color6": "#C1DFFA",
+        "color7": "#e1eef5",
+        "color8": "#9da6ab",
+        "color9": "#6FC5E0",
+        "color10": "#94DAED",
+        "color11": "#84DAF5",
+        "color12": "#ACD8FF",
+        "color13": "#B2EBFD",
+        "color14": "#C1DFFA",
+        "color15": "#e1eef5"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/diaz/Pictures/Wallpapers/stars.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#06121A",
+        "foreground": "#ded0db",
+        "cursor": "#ded0db"
+    },
+    "colors": {
+        "color0": "#06121A",
+        "color1": "#495C77",
+        "color2": "#275B8E",
+        "color3": "#5F6692",
+        "color4": "#9374A2",
+        "color5": "#6991BB",
+        "color6": "#9FA1CE",
+        "color7": "#ded0db",
+        "color8": "#9b9199",
+        "color9": "#495C77",
+        "color10": "#275B8E",
+        "color11": "#5F6692",
+        "color12": "#9374A2",
+        "color13": "#6991BB",
+        "color14": "#9FA1CE",
+        "color15": "#ded0db"
+    }
+}

@@ -1,0 +1,9 @@
+;; ========================================
+;; ALL EWW WIDGET
+;; ========================================
+
+(include "./widgets/dashboard.yuck")
+(include "./widgets/calendar.yuck")
+(include "./widgets/control_center.yuck")
+
+               

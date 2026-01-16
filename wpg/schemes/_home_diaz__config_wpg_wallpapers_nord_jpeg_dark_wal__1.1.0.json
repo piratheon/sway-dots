@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/diaz/.config/wpg/wallpapers/nord.jpeg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0c1018",
+        "foreground": "#b3c6d7",
+        "cursor": "#b3c6d7"
+    },
+    "colors": {
+        "color0": "#0c1018",
+        "color1": "#3D5981",
+        "color2": "#5B7597",
+        "color3": "#5E7DA4",
+        "color4": "#617CA1",
+        "color5": "#6284AA",
+        "color6": "#6486AE",
+        "color7": "#b3c6d7",
+        "color8": "#7d8a96",
+        "color9": "#3D5981",
+        "color10": "#5B7597",
+        "color11": "#5E7DA4",
+        "color12": "#617CA1",
+        "color13": "#6284AA",
+        "color14": "#6486AE",
+        "color15": "#b3c6d7"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/diaz/.config/wpg/wallpapers/road.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#020203",
+        "foreground": "#e1e5ea",
+        "cursor": "#e1e5ea"
+    },
+    "colors": {
+        "color0": "#020203",
+        "color1": "#AD8055",
+        "color2": "#3D6284",
+        "color3": "#56748D",
+        "color4": "#6C8FA7",
+        "color5": "#77A6C8",
+        "color6": "#A9B5C1",
+        "color7": "#e1e5ea",
+        "color8": "#9da0a3",
+        "color9": "#AD8055",
+        "color10": "#3D6284",
+        "color11": "#56748D",
+        "color12": "#6C8FA7",
+        "color13": "#77A6C8",
+        "color14": "#A9B5C1",
+        "color15": "#e1e5ea"
+    }
+}

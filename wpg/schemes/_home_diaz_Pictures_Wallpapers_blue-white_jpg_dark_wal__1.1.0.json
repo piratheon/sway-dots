@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/diaz/Pictures/Wallpapers/blue-white.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#031367",
+        "foreground": "#ddf6f4",
+        "cursor": "#ddf6f4"
+    },
+    "colors": {
+        "color0": "#031367",
+        "color1": "#3CC1FD",
+        "color2": "#64D0FD",
+        "color3": "#8CB1F2",
+        "color4": "#98D3F9",
+        "color5": "#92F3FD",
+        "color6": "#B0F5FA",
+        "color7": "#ddf6f4",
+        "color8": "#9aacaa",
+        "color9": "#3CC1FD",
+        "color10": "#64D0FD",
+        "color11": "#8CB1F2",
+        "color12": "#98D3F9",
+        "color13": "#92F3FD",
+        "color14": "#B0F5FA",
+        "color15": "#ddf6f4"
+    }
+}

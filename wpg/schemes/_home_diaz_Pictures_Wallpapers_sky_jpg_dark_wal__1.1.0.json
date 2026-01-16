@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/diaz/Pictures/Wallpapers/sky.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#072551",
+        "foreground": "#ecdfec",
+        "cursor": "#ecdfec"
+    },
+    "colors": {
+        "color0": "#072551",
+        "color1": "#6582BC",
+        "color2": "#6E87D1",
+        "color3": "#A597D4",
+        "color4": "#CA9ED1",
+        "color5": "#D8A9D3",
+        "color6": "#EBB3D8",
+        "color7": "#ecdfec",
+        "color8": "#a59ca5",
+        "color9": "#6582BC",
+        "color10": "#6E87D1",
+        "color11": "#A597D4",
+        "color12": "#CA9ED1",
+        "color13": "#D8A9D3",
+        "color14": "#EBB3D8",
+        "color15": "#ecdfec"
+    }
+}

@@ -1,0 +1,132 @@
+(include "./bar/widgets/_calendar.yuck")
+(include "./bar/widgets/_powermenu.yuck")
+
+(defwidget launcher[]
+  (box :orientation "h"
+       :class "launcher"
+       :tooltip "Launch apps"
+    (button :class "dispatcher" :onclick "sh ~/.config/bspwm/rofi/bin/launcher" "")
+  )
+)
+
+(defwidget workspaces []
+  (literal :content workspace)
+)
+
+(deflisten workspace "scripts/getWorkspaces")
+
+(defwidget left []
+  (box :orientation "h"
+       :space-evenly "false"
+       :halign "start"
+       :class "left"
+    (launcher)
+    (workspaces)
+    {xdo}
+  )
+)
+
+(defwidget wintitle []
+  (label :text xtitle :class "wintitle")
+)
+(defpoll xtitle :interval "1s" "scripts/getWinTitle")
+
+(defwidget center []
+  (box :class "center-widgets"
+       :space-evenly "false"
+       :halign "center"
+       :orientation "h"
+    (wintitle)
+  )
+)
+
+(defwidget sep []
+  (label :class "sep" :text "")
+)
+
+(defwidget dropdown [onclick ?class ?tooltip]
+  (button :tooltip tooltip :class class :onclick onclick "")
+)
+
+(defwidget datebox []
+  (box :orientation "h"
+       :class "date-box"
+       :space-evenly "false"
+    (label :text dateval :class "content")
+    (sep)
+    (dropdown
+      :onclick "eww open --toggle calendar"
+      :class "date-dropdown"
+      :tooltip "Toggle calendar")
+  )
+)
+(defpoll dateval :interval "1s" "scripts/getDate")
+
+(defwidget powermenu []
+  (box :orientation "h"
+       :space-evenly "false"
+       :class "powermenu-box"
+    (button :class "dispatcher"
+            :tooltip "Toggle Power Menu"
+            :onclick "sh ~/.config/bspwm/rofi/bin/powermenu"
+            "⏻")
+  )
+)
+
+(defwidget actionsbox []
+  (button :class "actionsbox" :onclick "eww -c ~/.config/eww open --toggle actions"
+    (box :orientation "h"
+        :space-evenly false
+        :spacing 6
+      ; margin are used to fix issues with nerd fonts widths :/
+      (label :text "${network_icon}" :style "margin-right: ${network_status == 'Connected' ? '3px' : '0px'};")
+      (label :text "${network_radio == 'on' ? '' : ''}")
+      (label :text "${volume_icon}" :style "margin-right: 3px;")
+      (label :text "${bluetooth_state == 'on' ? '' : ''}")
+      (label :text "${mic_status == 'yes' ? '' : ''}" :style "margin-left: -2px;")
+    )
+  )
+)
+
+(defwidget battery []
+  (box :class "battery__box"
+       :spacing 6
+  (label :class "battery__box_icon" :text "${battery_icon}")
+  (label :valign "center" :class "battery__box_percent" :text "${battery}%"))
+)
+
+(defwidget right []
+  (box :class "right-modules"
+       :space-evenly "false"
+       :halign "end"
+       :spacing 7
+       :orientation "h"
+    (actionsbox)
+    (battery)
+    (datebox)
+    (powermenu)
+  )
+)
+
+(defwidget bar []
+  (box :class "bar"
+       :orientation "h"
+    (left)
+    (center)
+    (right)
+  )
+)
+
+(defwindow bar
+   :geometry (geometry :x "0px"
+                       :y "10px"
+                       :width "72%"
+                       :height "46px"
+                       :anchor "top center")
+   :focusable true
+   :stacking "bg"
+   :reserve (struts :distance "52px" :side "top")
+   :windowtype "dock"
+   :wm-ignore false
+   :exclusive true
+ (bar))

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/diaz/.config/wpg/wallpapers/dark_mountain.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0c0d0b",
+        "foreground": "#abbbc0",
+        "cursor": "#abbbc0"
+    },
+    "colors": {
+        "color0": "#0c0d0b",
+        "color1": "#265160",
+        "color2": "#B56114",
+        "color3": "#7A817C",
+        "color4": "#BD8F5D",
+        "color5": "#216A89",
+        "color6": "#4C7A8D",
+        "color7": "#abbbc0",
+        "color8": "#778286",
+        "color9": "#265160",
+        "color10": "#B56114",
+        "color11": "#7A817C",
+        "color12": "#BD8F5D",
+        "color13": "#216A89",
+        "color14": "#4C7A8D",
+        "color15": "#abbbc0"
+    }
+}

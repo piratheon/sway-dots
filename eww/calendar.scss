@@ -1,0 +1,117 @@
+/* calendar.scss - Pywal Colors - FIXED TODAY INDICATOR */
+// Color Generator From WPG
+
+@import "colors.scss";
+
+/* Kontainer utama di dalam jendela */
+.cal-box {
+  padding: 10px;
+  font-family: "JetBrainsMono Nerd Font", "Noto Sans", sans-serif;
+  background-color: $background; // Warna background dari pywal
+  border-radius: 0 0 10px 10px;
+  border: 1.5px solid $color2; // Border abu-abu dari pywal
+  border-top: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Header tanggal kustom */
+.cal-header-date {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: $foreground; // Warna teks dari pywal
+}
+
+/* Widget kalender */
+.cal {
+  font-size: 1rem;
+  color: $foreground; // Warna teks dari pywal
+  margin: 0;
+  padding: 0;
+
+  /* Header bulan & tahun */
+  > .calendar_header {
+    margin-bottom: 6px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: $foreground; // Warna teks dari pywal
+    
+    button {
+      font-size: 1rem;
+      color: $foreground;
+      background: transparent;
+      border: none;
+      padding: 0px;
+      transition: all 0.2s ease;
+      
+      &:hover { 
+        color: $color6; // Warna highlight dari pywal
+        background-color: rgba($color1, 0.2); // Background semi-transparan
+        border-radius: 6px;
+      }
+    }
+  }
+
+  /* Nama hari */
+  > .calendar_grid .calendar__day-names {
+    margin-bottom: 4px;
+    font-weight: bold;
+    color: $color8; // Abu-abu dari pywal
+    font-size: 0.8rem;
+  }
+
+  /* Grid kalender */
+  > .calendar_grid {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  /* Tanggal individual - MUST USE label selector */
+  label.calendar__day {
+    color: $foreground;
+    border-radius: 50%;
+    margin: 2px;
+    min-width: 32px;
+    min-height: 32px;
+    transition: all 0.2s ease;
+  }
+
+  /* Tanggal bulan sebelum/sesudah */
+  label.calendar__day.prev_month,
+  label.calendar__day.next_month {
+    color: $color8;
+    opacity: 0.5;
+  }
+
+  /* Hover effect */
+  label.calendar__day:hover {
+    background-color: rgba($color1, 0.3);
+    color: $color7;
+  }
+}
+
+calendar:selected {
+  background: $color4;
+  color: $color15;
+  font-weight: bold;
+  border: 2px solid $color6;
+  border-radius: 4px; // Kotak dengan sudut sedikit rounded
+}
+
+/* Alternatif dengan lebih spesifik */
+.cal calendar:selected {
+  background: $color4;
+  color: $color15;
+  font-weight: bold;
+  border: 2px solid $color6;
+  border-radius: 4px; // Kotak dengan sudut sedikit rounded
+}
+
+/* Jika masih tidak muncul, coba selector ini */
+.cal-box calendar:selected {
+  background: $color4;
+  color: $color15;
+  font-weight: bold;
+  border: 2px solid $color6;
+  border-radius: 4px; // Kotak dengan sudut sedikit rounded
+}
