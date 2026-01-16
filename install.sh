@@ -21,22 +21,18 @@ SOFTWARE_PACKAGES=(
     "blueman" # For blueman-manager
     "btop"
     "brightnessctl" # Alternative: "light"
-    "brave-browser"
     "colorthief" # Python package or CLI tool
     "conky"
     "curl"
-    "discord"
-    "docker"
     "dunst"
     "eww"
     "eza"
     "expac"
     "fastfetch"
     "ffmpeg"
-    "firefox" # Or "firedragon" if available in your repos
     "flatpak"
     "foot"
-    "gnome-text-editor" # Or "gedit"
+    "gedit"
     "glow"
     "grim"
     "grimshot" # Often part of sway or a separate package
@@ -52,21 +48,13 @@ SOFTWARE_PACKAGES=(
     "networkmanager-applet" # For nm-applet
     "networkmanager-dmenu"
     "netcat" # For 'nc'
-    "npm-check-updates" # For 'ncu', typically installed via npm: 'npm install -g npm-check-updates'
     "neovim" # For 'nvim'
-    "nwg-bar"
-    "nwg-grid"
-    "nwg-launchers"
-    "nwg-panel"
-    "nwg-wrapper"
-    "nwgdmenu"
-    "ori" # Custom utility, ensure it's available in your PATH or change this.
+    "ori"
     "pamac" # For pamac-manager
     "pavucontrol"
     "pcmanfm"
     "playerctl"
     "polkit-gnome" # For polkit-gnome-authentication-agent
-    "polybar"
     "poweralertd"
     "procps-ng" # For 'pstree', 'pwdx'
     "python" # For python scripts
@@ -78,11 +66,10 @@ SOFTWARE_PACKAGES=(
     "slurp"
     "spotify"
     "steam"
-    "sway"
+    "swayfx"
     "swayidle"
     "swaylock"
     "swww" # For swww-daemon and swww
-    "telegram-desktop"
     "tracker" # For 'tracker daemon', likely tracker3
     "translate-shell"
     "urxvt" # If you intend to use it, otherwise remove
