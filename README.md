@@ -1,3 +1,5 @@
+<img width="1366" height="768" alt="screenshot-2026-01-10-15:22:27" src="https://github.com/user-attachments/assets/deb14547-3c5a-4353-b30c-b7e66228ed89" />
+
 # My Sway & Nushell Dotfiles
 
 This repository contains a backup of my personal dotfiles for Sway, Nushell, and related terminal/shell applications. It also includes an installer script to help set up a new system with these configurations.
