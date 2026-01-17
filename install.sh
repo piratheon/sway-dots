@@ -41,7 +41,7 @@ detect_distro() {
         PKG_MANAGER="paru"
         DISTRO="arch"
     fi
-    
+
     echo "Detected distribution: $DISTRO"
     echo "Using package manager: $PKG_MANAGER"
 }
@@ -52,11 +52,11 @@ get_arch_packages() {
 }
 
 get_debian_packages() {
-    echo "alacritty avizo bat blueman btop brightnessctl curl dunst eza fastfetch ffmpeg flatpak foot gedit glow grim grimshot hwinfo imagemagick jq libinput-tools libnotify lxappearance mako network-manager network-manager-gnome netcat neovim pavucontrol pcmanfm playerctl procps python3 qt5ct ranger reflector ripgrep rofi slurp swayidle swaylock swww tracker-extract translate-shell vim-gtk3 waybar wget wlogout wofi xsettingsd xdg-user-dirs xdg-utils xsane yad"
+    echo "alacritty wl-clipboard bat blueman btop brightnessctl curl dunst eza fastfetch ffmpeg flatpak foot gedit glow grim swayshot hwinfo imagemagick jq libinput-tools libnotify-bin lxappearance mako network-manager network-manager-gnome netcat-openbsd neovim pcmanfm playerctl procps python3 qt5ct ranger reflector ripgrep rofi slurp swayidle swaylock-effects swww tracker translate-shell vim-gtk3 waybar wget wlogout wofi xsettingsd xdg-user-dirs xdg-utils xsane-gtk yad"
 }
 
 get_fedora_packages() {
-    echo "alacritty avizo bat blueman btop brightnessctl curl dunst eza fastfetch ffmpeg flatpak foot gedit glow grim grimshot hwinfo ImageMagick jq libinput libnotify lxappearance mako NetworkManager NetworkManager-tui netcat neovim pavucontrol pcmanfm playerctl procps-ng python3 qt5ct ranger ripgrep rofi slurp swayidle swaylock swww tracker translate-shell vim-enhanced waybar wget wlogout wofi xsettingsd xdg-user-dirs xdg-utils xsane yad"
+    echo "alacritty wl-clipboard bat blueman btop brightnessctl curl dunst eza fastfetch ffmpeg flatpak foot gedit glow grim swayshot hwinfo ImageMagick jq libinput libnotify lxappearance mako NetworkManager NetworkManager-tui nmap-ncat neovim pavucontrol pcmanfm playerctl procps-ng python3 qt5ct ranger ripgrep rofi slurp swayidle swaylock swww tracker translate-shell vim-enhanced waybar wget wlogout wofi xsettingsd xdg-user-dirs xdg-utils xsane yad"
 }
 
 get_font_packages() {
@@ -80,7 +80,7 @@ get_font_packages() {
 ask_user_preferences() {
     echo ""
     echo "=== Customization Options ==="
-    
+
     # UI Blur Option
     read -p "Enable UI blur effects? (y/N): " blur_choice
     if [[ "$blur_choice" =~ ^[Yy]$ ]]; then
@@ -90,7 +90,7 @@ ask_user_preferences() {
         UI_BLUR_ENABLED=false
         echo "UI blur will be disabled"
     fi
-    
+
     # Keyboard Layout Option
     read -p "Would you like to customize keyboard layouts? (y/N): " keyboard_choice
     if [[ "$keyboard_choice" =~ ^[Yy]$ ]]; then
@@ -107,7 +107,7 @@ ask_user_preferences() {
 # --- Functions ---
 install_dependencies() {
     echo "Attempting to install software dependencies for $DISTRO..."
-    
+
     # Get appropriate package lists
     case $DISTRO in
         arch|manjaro|garuda)
@@ -155,47 +155,54 @@ install_dependencies() {
 
 prepare_configs() {
     echo "Preparing configuration files..."
-    
+
     # Create temporary directory for modified configs
     TEMP_CONFIG_DIR=$(mktemp -d)
-    
+
     # Copy all configs to temp directory
     cp -r "$SCRIPT_DIR"/* "$TEMP_CONFIG_DIR/"
-    
+
     # Modify sway config based on UI blur preference
     if [ "$UI_BLUR_ENABLED" = false ]; then
         echo "Disabling blur effects in sway config..."
         # Create a version without blur effects by commenting out blur-related lines
         sed 's/^\(.*blur.*enable\)/# \1/' "$TEMP_CONFIG_DIR/sway/config.d/swayfx" | sed 's/^\(blur.*enable\)/# \1/' > "$TEMP_CONFIG_DIR/sway/config.d/swayfx.tmp" && mv "$TEMP_CONFIG_DIR/sway/config.d/swayfx.tmp" "$TEMP_CONFIG_DIR/sway/config.d/swayfx"
     fi
-    
+
     # Modify input config based on keyboard layout preference
     if [ "$CUSTOMIZE_KEYBOARD" = true ]; then
         echo "Updating keyboard layouts in sway config..."
         # Build the xkb_layout line with all selected layouts
         LAYOUTS_STR=$(IFS=,; echo "${KEYBOARD_LAYOUTS[*]}")
-        
+
         # Update the xkb_layout in input config
         sed "s/xkb_layout \"fr\"/xkb_layout \"$LAYOUTS_STR\"/g; s/xkb_options \"grp:alt_shift_toggle,caps:escape\"/xkb_options \"grp:alt_shift_toggle,caps:escape\"/g" \
             "$TEMP_CONFIG_DIR/sway/config.d/input" > "$TEMP_CONFIG_DIR/sway/config.d/input.tmp" && mv "$TEMP_CONFIG_DIR/sway/config.d/input.tmp" "$TEMP_CONFIG_DIR/sway/config.d/input"
     fi
-    
+
     # Copy modified configs to home directory
     echo "Deploying dotfiles to ~/.config/..."
     mkdir -p "$HOME/.config"
-    
+
     # Use rsync to copy configs, excluding install script and README
     rsync -avh --exclude 'install.sh' --exclude 'README.md' --exclude '.git' "$TEMP_CONFIG_DIR/" "$HOME/.config/"
-    
+
     # Clean up temp directory
     rm -rf "$TEMP_CONFIG_DIR"
-    
+
     # Special handling for nushell config
     if [ -d "$HOME/.config/nushell" ]; then
         mv "$HOME/.config/nushell" "$HOME/.config/nushell_backup_$(date +%Y%m%d_%H%M%S)" || true
     fi
-    cp -r "$SCRIPT_DIR/nushell" "$HOME/.config/"
-    
+
+    # Use distribution-specific nushell config if available
+    if [ -f "$SCRIPT_DIR/distro-configs/$DISTRO/nushell/config.nu" ]; then
+        mkdir -p "$HOME/.config/nushell"
+        cp "$SCRIPT_DIR/distro-configs/$DISTRO/nushell/config.nu" "$HOME/.config/nushell/config.nu"
+    else
+        cp -r "$SCRIPT_DIR/nushell" "$HOME/.config/"
+    fi
+
     echo "Configuration files deployed successfully!"
 }
 
