@@ -1,6 +1,6 @@
 # Debian/Ubuntu package list
 alacritty
-wl-clipboard
+avizo
 bat
 blueman
 btop
@@ -15,18 +15,19 @@ foot
 gedit
 glow
 grim
-swayshot
+grimshot
 hwinfo
 imagemagick
 jq
 libinput-tools
-libnotify-bin
+libnotify
 lxappearance
 mako
 network-manager
 network-manager-gnome
-netcat-openbsd
+netcat
 neovim
+pavucontrol
 pcmanfm
 playerctl
 procps
@@ -38,9 +39,9 @@ ripgrep
 rofi
 slurp
 swayidle
-swaylock-effects
+swaylock
 swww
-tracker
+tracker-extract
 translate-shell
 vim-gtk3
 waybar
@@ -50,11 +51,11 @@ wofi
 xsettingsd
 xdg-user-dirs
 xdg-utils
-xsane-gtk
+xsane
 yad
 fonts-noto-color-emoji
 fonts-jetbrains-mono
 fonts-liberation
-fonts-dejavu
+fonts-dejavu-core
 fonts-freefont-ttf
 fonts-hack-ttf
