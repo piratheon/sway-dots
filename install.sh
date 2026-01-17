@@ -52,11 +52,11 @@ get_arch_packages() {
 }
 
 get_debian_packages() {
-    echo "alacritty wl-clipboard bat blueman btop brightnessctl curl dunst eza fastfetch ffmpeg flatpak foot gedit glow grim swayshot hwinfo imagemagick jq libinput-tools libnotify-bin lxappearance mako network-manager network-manager-gnome netcat-openbsd neovim pcmanfm playerctl procps python3 qt5ct ranger reflector ripgrep rofi slurp swayidle swaylock-effects swww tracker translate-shell vim-gtk3 waybar wget wlogout wofi xsettingsd xdg-user-dirs xdg-utils xsane-gtk yad"
+    echo "alacritty wl-clipboard bat blueman btop brightnessctl curl dunst eza fastfetch ffmpeg flatpak foot gedit glow grim hwinfo imagemagick jq libinput-tools libnotify-bin lxappearance network-manager network-manager-gnome netcat-openbsd neovim pcmanfm playerctl procps python3 qt5ct ranger ripgrep rofi slurp swayidle tracker translate-shell vim-gtk3 waybar wget wlogout wofi xsettingsd xdg-user-dirs xdg-utils yad"
 }
 
 get_fedora_packages() {
-    echo "alacritty wl-clipboard bat blueman btop brightnessctl curl dunst eza fastfetch ffmpeg flatpak foot gedit glow grim swayshot hwinfo ImageMagick jq libinput libnotify lxappearance mako NetworkManager NetworkManager-tui nmap-ncat neovim pavucontrol pcmanfm playerctl procps-ng python3 qt5ct ranger ripgrep rofi slurp swayidle swaylock swww tracker translate-shell vim-enhanced waybar wget wlogout wofi xsettingsd xdg-user-dirs xdg-utils xsane yad"
+    echo "alacritty wl-clipboard bat blueman btop brightnessctl curl dunst eza fastfetch ffmpeg flatpak foot gedit glow grim hwinfo ImageMagick jq libinput libnotify lxappearance NetworkManager NetworkManager-tui nmap-ncat neovim pavucontrol pcmanfm playerctl procps-ng python3 qt5ct ranger ripgrep rofi slurp swayidle tracker translate-shell vim-enhanced waybar wget wlogout wofi xsettingsd xdg-user-dirs xdg-utils xsane yad"
 }
 
 get_font_packages() {
@@ -150,7 +150,218 @@ install_dependencies() {
         pip3 install colorthief
     fi
 
+    # Install packages that require custom installation methods
+    install_custom_packages
+
     echo "Dependencies installation attempted. Please check for errors."
+}
+
+install_custom_packages() {
+    echo "Installing packages that require custom installation methods..."
+
+    case $DISTRO in
+        ubuntu|debian|mint)
+            install_swayshot_debian
+            install_mako_debian
+            install_swaylock_effects_debian
+            install_swww_debian
+            install_xsane_debian
+            ;;
+        fedora)
+            install_swayshot_fedora
+            install_mako_fedora
+            install_swaylock_effects_fedora
+            install_swww_fedora
+            install_xsane_fedora
+            ;;
+    esac
+}
+
+install_swayshot_debian() {
+    if ! command -v swayshot &> /dev/null; then
+        echo "Installing SwayShot for Debian..."
+        sudo apt update
+        sudo apt install -y grim slurp
+        if [ $? -eq 0 ]; then
+            git clone https://github.com/WillPower3309/swayshot.git /tmp/swayshot
+            sudo cp /tmp/swayshot/swayshot /usr/local/bin/
+            sudo chmod +x /usr/local/bin/swayshot
+            rm -rf /tmp/swayshot
+            echo "SwayShot installed successfully!"
+        else
+            echo "Failed to install SwayShot dependencies"
+        fi
+    else
+        echo "SwayShot already installed"
+    fi
+}
+
+install_mako_debian() {
+    if ! command -v mako &> /dev/null; then
+        echo "Installing Mako for Debian..."
+        sudo apt update
+        sudo apt install -y python3-mako
+        if [ $? -eq 0 ]; then
+            echo "Mako installed successfully!"
+        else
+            echo "Failed to install Mako"
+        fi
+    else
+        echo "Mako already installed"
+    fi
+}
+
+install_swaylock_effects_debian() {
+    if ! command -v swaylock-effects &> /dev/null; then
+        echo "Installing Swaylock Effects for Debian..."
+        sudo apt update
+        sudo apt install -y meson libwayland-dev wayland-protocols \
+        libxkbcommon-dev libcairo2-dev libpam0g-dev libgdk-pixbuf-2.0-dev git ninja-build
+        if [ $? -eq 0 ]; then
+            git clone https://github.com/mortie/swaylock-effects.git /tmp/swaylock-effects
+            cd /tmp/swaylock-effects
+            meson setup build
+            ninja -C build
+            sudo ninja -C build install
+            rm -rf /tmp/swaylock-effects
+            echo "Swaylock Effects installed successfully!"
+        else
+            echo "Failed to install Swaylock Effects dependencies"
+        fi
+    else
+        echo "Swaylock Effects already installed"
+    fi
+}
+
+install_swww_debian() {
+    if ! command -v swww &> /dev/null; then
+        echo "Installing Swww for Debian..."
+        sudo apt update
+        sudo apt install -y curl git build-essential
+        if [ $? -eq 0 ]; then
+            # Install Rust if not already installed
+            if ! command -v rustc &> /dev/null; then
+                curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+                source "$HOME/.cargo/env"
+            fi
+            git clone https://github.com/LGFae/swww /tmp/swww
+            cd /tmp/swww
+            cargo build --release
+            sudo cp target/release/swww /usr/local/bin/
+            rm -rf /tmp/swww
+            echo "Swww installed successfully!"
+        else
+            echo "Failed to install Swww dependencies"
+        fi
+    else
+        echo "Swww already installed"
+    fi
+}
+
+install_xsane_debian() {
+    if ! command -v xsane &> /dev/null; then
+        echo "Installing Xsane for Debian..."
+        sudo apt update
+        sudo apt install -y xsane
+        if [ $? -eq 0 ]; then
+            echo "Xsane installed successfully!"
+        else
+            echo "Failed to install Xsane"
+        fi
+    else
+        echo "Xsane already installed"
+    fi
+}
+
+install_swayshot_fedora() {
+    if ! command -v swayshot &> /dev/null; then
+        echo "Installing SwayShot for Fedora..."
+        sudo dnf install -y grim slurp
+        if [ $? -eq 0 ]; then
+            git clone https://github.com/WillPower3309/swayshot.git /tmp/swayshot
+            sudo cp /tmp/swayshot/swayshot /usr/local/bin/
+            sudo chmod +x /usr/local/bin/swayshot
+            rm -rf /tmp/swayshot
+            echo "SwayShot installed successfully!"
+        else
+            echo "Failed to install SwayShot dependencies"
+        fi
+    else
+        echo "SwayShot already installed"
+    fi
+}
+
+install_mako_fedora() {
+    if ! command -v mako &> /dev/null; then
+        echo "Installing Mako for Fedora..."
+        sudo dnf install -y mako
+        if [ $? -eq 0 ]; then
+            echo "Mako installed successfully!"
+        else
+            echo "Failed to install Mako"
+        fi
+    else
+        echo "Mako already installed"
+    fi
+}
+
+install_swaylock_effects_fedora() {
+    if ! command -v swaylock-effects &> /dev/null; then
+        echo "Installing Swaylock Effects for Fedora..."
+        sudo dnf install -y meson wayland-devel wayland-protocols-devel \
+        libxkbcommon-devel cairo-devel pam-devel gdk-pixbuf2-devel git ninja-build
+        if [ $? -eq 0 ]; then
+            git clone https://github.com/mortie/swaylock-effects.git /tmp/swaylock-effects
+            cd /tmp/swaylock-effects
+            meson setup build
+            ninja -C build
+            sudo ninja -C build install
+            rm -rf /tmp/swaylock-effects
+            echo "Swaylock Effects installed successfully!"
+        else
+            echo "Failed to install Swaylock Effects dependencies"
+        fi
+    else
+        echo "Swaylock Effects already installed"
+    fi
+}
+
+install_swww_fedora() {
+    if ! command -v swww &> /dev/null; then
+        echo "Installing Swww for Fedora..."
+        sudo dnf install -y curl git gcc gcc-c++ make
+        if [ $? -eq 0 ]; then
+            # Install Rust if not already installed
+            if ! command -v rustc &> /dev/null; then
+                curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+                source "$HOME/.cargo/env"
+            fi
+            git clone https://github.com/LGFae/swww /tmp/swww
+            cd /tmp/swww
+            cargo build --release
+            sudo cp target/release/swww /usr/local/bin/
+            rm -rf /tmp/swww
+            echo "Swww installed successfully!"
+        else
+            echo "Failed to install Swww dependencies"
+        fi
+    else
+        echo "Swww already installed"
+    fi
+}
+
+install_xsane_fedora() {
+    if ! command -v xsane &> /dev/null; then
+        echo "Installing Xsane for Fedora..."
+        sudo dnf install -y xsane
+        if [ $? -eq 0 ]; then
+            echo "Xsane installed successfully!"
+        else
+            echo "Failed to install Xsane"
+        fi
+    else
+        echo "Xsane already installed"
+    fi
 }
 
 prepare_configs() {
