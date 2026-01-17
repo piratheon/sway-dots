@@ -1,6 +1,6 @@
 # Fedora package list
 alacritty
-avizo
+wl-clipboard
 bat
 blueman
 btop
@@ -15,7 +15,7 @@ foot
 gedit
 glow
 grim
-grimshot
+swayshot
 hwinfo
 ImageMagick
 jq
@@ -25,9 +25,8 @@ lxappearance
 mako
 NetworkManager
 NetworkManager-tui
-netcat
+nmap-ncat
 neovim
-pavucontrol
 pcmanfm
 playerctl
 procps-ng
