@@ -1,4 +1,3 @@
-```
 # Build artifacts
 dist/
 build/
@@ -26,4 +25,3 @@ __pycache__/
 node_modules/
 .venv/
 venv/
-```
