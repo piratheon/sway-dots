@@ -1,114 +1,142 @@
 #!/bin/bash
 
-# This script installs dotfiles and their dependencies.
+# This script installs dotfiles and their dependencies with support for multiple distributions.
 # Please review the script before running it.
 
-# --- Configuration ---
-# Set your preferred package manager. Examples: paru, yay, apt, dnf, pacman, etc.
-# If using a non-AUR helper (like pacman), you may need to manually install AUR packages.
-PKG_MANAGER="paru" 
+# --- Global Variables ---
+SCRIPT_DIR=$(dirname "$(readlink -f "$0")")
+DISTRO=""
+PKG_MANAGER=""
+UI_BLUR_ENABLED=true
+KEYBOARD_LAYOUTS=("fr")
+CUSTOMIZE_KEYBOARD=false
 
-# --- Dependencies ---
-# These are the software packages identified from your dotfiles.
-# This list is based on executables and applications found in your configs.
-# Review and adjust as needed for your specific system and preferences.
-SOFTWARE_PACKAGES=(
-    "alacritty"
-    "audio-recorder"
-    "autotiling"
-    "avizo" # For avizo-service and avizo-client
-    "bat"
-    "blueman" # For blueman-manager
-    "btop"
-    "brightnessctl" # Alternative: "light"
-    "colorthief" # Python package or CLI tool
-    "curl"
-    "dunst"
-    "eww"
-    "eza"
-    "expac"
-    "fastfetch"
-    "ffmpeg"
-    "flatpak"
-    "foot"
-    "gedit"
-    "glow"
-    "grim"
-    "grimshot" # Often part of sway or a separate package
-    "hwinfo"
-    "imagemagick" # For 'convert' and 'magick'
-    "jq"
-    "kvantum" # For kvantummanager
-    "libinput-gestures"
-    "libnotify" # For 'notify-send'
-    "lxappearance"
-    "mako"
-    "networkmanager" # For nmtui
-    "networkmanager-applet" # For nm-applet
-    "networkmanager-dmenu"
-    "netcat" # For 'nc'
-    "neovim" # For 'nvim'
-    "ori"
-    "pamac" # For pamac-manager
-    "pavucontrol"
-    "pcmanfm"
-    "playerctl"
-    "polkit-gnome" # For polkit-gnome-authentication-agent
-    "poweralertd"
-    "procps-ng" # For 'pstree', 'pwdx'
-    "python" # For python scripts
-    "qt5ct"
-    "ranger"
-    "reflector"
-    "ripgrep" # For 'rg'
-    "rofi"
-    "slurp"
-    "swayfx"
-    "swayidle"
-    "swaylock"
-    "swww" # For swww-daemon and swww
-    "tracker" # For 'tracker daemon', likely tracker3
-    "translate-shell"
-    "urxvt" # If you intend to use it, otherwise remove
-    "vimcat"
-    "volumectl" # Custom utility, ensure it's available in your PATH or change this.
-    "waybar"
-    "waybar-mpris"
-    "wget"
-    "wlogout"
-    "wofi"
-    "wpg"
-    "xsettingsd"
-    "xdg-user-dirs"
-    "xdg-utils" # For 'xdg-open'
-    "xsane"
-    "yad"
-)
+# --- Distro Detection ---
+detect_distro() {
+    if [ -f /etc/os-release ]; then
+        . /etc/os-release
+        DISTRO=$ID
+        case $ID in
+            arch|manjaro|garuda)
+                PKG_MANAGER="paru"
+                ;;
+            ubuntu|debian|mint)
+                PKG_MANAGER="apt"
+                ;;
+            fedora)
+                PKG_MANAGER="dnf"
+                ;;
+            opensuse*)
+                PKG_MANAGER="zypper"
+                ;;
+            *)
+                echo "Unsupported distribution: $ID"
+                echo "Defaulting to Arch Linux setup"
+                PKG_MANAGER="paru"
+                DISTRO="arch"
+                ;;
+        esac
+    else
+        echo "Could not detect distribution, defaulting to Arch Linux setup"
+        PKG_MANAGER="paru"
+        DISTRO="arch"
+    fi
+    
+    echo "Detected distribution: $DISTRO"
+    echo "Using package manager: $PKG_MANAGER"
+}
 
-# These are the font packages identified from your dotfiles.
-FONT_PACKAGES=(
-    "ttf-jetbrains-mono-nerd"
-    "ttf-meslo-lgs-nerd" # Or ttf-caskaydia-cove-nerd
-    "noto-fonts"
-    "ttf-hack-fonts"
-    # Add other icon fonts like font-awesome if needed based on your setup.
-)
+# --- Package Lists per Distribution ---
+get_arch_packages() {
+    echo "alacritty audio-recorder autotiling avizo bat blueman btop brightnessctl curl dunst eww eza expac fastfetch ffmpeg flatpak foot gedit glow grim grimshot hwinfo imagemagick jq kvantum libinput-gestures libnotify lxappearance mako networkmanager networkmanager-applet networkmanager-dmenu netcat neovim ori pamac pavucontrol pcmanfm playerctl polkit-gnome poweralertd procps-ng python qt5ct ranger reflector ripgrep rofi slurp swayfx swayidle swaylock swww tracker translate-shell urxvt vimcat volumectl waybar waybar-mpris wget wlogout wofi wpg xsettingsd xdg-user-dirs xdg-utils xsane yad"
+}
+
+get_debian_packages() {
+    echo "alacritty avizo bat blueman btop brightnessctl curl dunst eza fastfetch ffmpeg flatpak foot gedit glow grim grimshot hwinfo imagemagick jq libinput-tools libnotify lxappearance mako network-manager network-manager-gnome netcat neovim pavucontrol pcmanfm playerctl procps python3 qt5ct ranger reflector ripgrep rofi slurp swayidle swaylock swww tracker-extract translate-shell vim-gtk3 waybar wget wlogout wofi xsettingsd xdg-user-dirs xdg-utils xsane yad"
+}
+
+get_fedora_packages() {
+    echo "alacritty avizo bat blueman btop brightnessctl curl dunst eza fastfetch ffmpeg flatpak foot gedit glow grim grimshot hwinfo ImageMagick jq libinput libnotify lxappearance mako NetworkManager NetworkManager-tui netcat neovim pavucontrol pcmanfm playerctl procps-ng python3 qt5ct ranger ripgrep rofi slurp swayidle swaylock swww tracker translate-shell vim-enhanced waybar wget wlogout wofi xsettingsd xdg-user-dirs xdg-utils xsane yad"
+}
+
+get_font_packages() {
+    case $DISTRO in
+        arch|manjaro|garuda)
+            echo "ttf-jetbrains-mono-nerd ttf-meslo-lgs-nerd noto-fonts ttf-hack-fonts"
+            ;;
+        ubuntu|debian|mint)
+            echo "fonts-noto-color-emoji fonts-jetbrains-mono fonts-liberation fonts-dejavu-core fonts-freefont-ttf fonts-hack-ttf"
+            ;;
+        fedora)
+            echo "jetbrains-mono-fonts liberation-fonts dejavu-sans-fonts hack-fonts google-noto-emoji-fonts"
+            ;;
+        *)
+            echo "ttf-jetbrains-mono-nerd ttf-meslo-lgs-nerd noto-fonts ttf-hack-fonts"
+            ;;
+    esac
+}
+
+# --- User Prompts ---
+ask_user_preferences() {
+    echo ""
+    echo "=== Customization Options ==="
+    
+    # UI Blur Option
+    read -p "Enable UI blur effects? (y/N): " blur_choice
+    if [[ "$blur_choice" =~ ^[Yy]$ ]]; then
+        UI_BLUR_ENABLED=true
+        echo "UI blur will be enabled"
+    else
+        UI_BLUR_ENABLED=false
+        echo "UI blur will be disabled"
+    fi
+    
+    # Keyboard Layout Option
+    read -p "Would you like to customize keyboard layouts? (y/N): " keyboard_choice
+    if [[ "$keyboard_choice" =~ ^[Yy]$ ]]; then
+        CUSTOMIZE_KEYBOARD=true
+        read -p "Enter keyboard layouts (comma separated, e.g., 'us,fr,de'): " keyboard_input
+        IFS=',' read -ra KEYBOARD_LAYOUTS <<< "$keyboard_input"
+        echo "Keyboard layouts set to: ${KEYBOARD_LAYOUTS[*]}"
+    else
+        CUSTOMIZE_KEYBOARD=false
+        echo "Using default keyboard layout (fr)"
+    fi
+}
 
 # --- Functions ---
 install_dependencies() {
-    echo "Attempting to install software dependencies..."
-    if [[ "$PKG_MANAGER" == "paru" || "$PKG_MANAGER" == "yay" ]]; then
-        sudo "$PKG_MANAGER" -Syu --needed --noconfirm "${SOFTWARE_PACKAGES[@]}" "${FONT_PACKAGES[@]}"
-    elif [[ "$PKG_MANAGER" == "pacman" ]]; then
-        sudo "$PKG_MANAGER" -Syu --needed --noconfirm "${SOFTWARE_PACKAGES[@]}" "${FONT_PACKAGES[@]}"
-        echo "WARNING: Some packages might be from AUR. Please install them manually using an AUR helper like paru/yay or from source."
-    elif command -v "$PKG_MANAGER" &> /dev/null; then
-        echo "Using '$PKG_MANAGER' for installation. Please ensure it supports all packages."
-        sudo "$PKG_MANAGER" install -y "${SOFTWARE_PACKAGES[@]}" "${FONT_PACKAGES[@]}"
-    else
-        echo "Error: Package manager '$PKG_MANAGER' not found. Please install dependencies manually."
-        return 1
-    fi
+    echo "Attempting to install software dependencies for $DISTRO..."
+    
+    # Get appropriate package lists
+    case $DISTRO in
+        arch|manjaro|garuda)
+            SOFTWARE_PACKAGES=$(get_arch_packages)
+            FONT_PACKAGES=$(get_font_packages)
+            if [[ "$PKG_MANAGER" == "paru" || "$PKG_MANAGER" == "yay" ]]; then
+                sudo "$PKG_MANAGER" -Syu --needed --noconfirm $SOFTWARE_PACKAGES $FONT_PACKAGES
+            elif [[ "$PKG_MANAGER" == "pacman" ]]; then
+                sudo "$PKG_MANAGER" -Syu --needed --noconfirm $SOFTWARE_PACKAGES $FONT_PACKAGES
+                echo "WARNING: Some packages might be from AUR. Please install them manually using an AUR helper like paru/yay or from source."
+            fi
+            ;;
+        ubuntu|debian|mint)
+            SOFTWARE_PACKAGES=$(get_debian_packages)
+            FONT_PACKAGES=$(get_font_packages)
+            sudo apt update
+            sudo apt install -y $SOFTWARE_PACKAGES $FONT_PACKAGES
+            ;;
+        fedora)
+            SOFTWARE_PACKAGES=$(get_fedora_packages)
+            FONT_PACKAGES=$(get_font_packages)
+            sudo dnf update -y
+            sudo dnf install -y $SOFTWARE_PACKAGES $FONT_PACKAGES
+            ;;
+        *)
+            echo "Unsupported distribution: $DISTRO"
+            return 1
+            ;;
+    esac
 
     # Handle npm-check-updates separately as it's an npm package
     if ! command -v ncu &> /dev/null; then
@@ -116,41 +144,70 @@ install_dependencies() {
         npm install -g npm-check-updates
     fi
 
-    # Handle python pip packages separately, e.g., colorthief if it's a pip package
-    if ! command -v colorthief &> /dev/null && pip show colorthief &> /dev/null; then
-        echo "Installing colorthief via pip..."
-        pip install colorthief
+    # Handle python pip packages separately
+    if ! command -v colorthief &> /dev/null && pip3 show colorthief &> /dev/null; then
+        echo "Installing colorthief via pip3..."
+        pip3 install colorthief
     fi
 
     echo "Dependencies installation attempted. Please check for errors."
 }
 
-deploy_dotfiles() {
-    echo "Deploying dotfiles to ~/.config/..."
-    local SCRIPT_DIR=$(dirname "$(readlink -f "$0")")
-
-    # Ensure ~/.config exists
-    mkdir -p "$HOME/.config"
-
-    # Copy config directories
-    rsync -avh --exclude 'install.sh' --exclude 'README.md' "$SCRIPT_DIR/" "$HOME/.config/"
+prepare_configs() {
+    echo "Preparing configuration files..."
     
-    # Move nushell config to the correct location in ~/.config
+    # Create temporary directory for modified configs
+    TEMP_CONFIG_DIR=$(mktemp -d)
+    
+    # Copy all configs to temp directory
+    cp -r "$SCRIPT_DIR"/* "$TEMP_CONFIG_DIR/"
+    
+    # Modify sway config based on UI blur preference
+    if [ "$UI_BLUR_ENABLED" = false ]; then
+        echo "Disabling blur effects in sway config..."
+        # Create a version without blur effects by commenting out blur-related lines
+        sed 's/^\(.*blur.*enable\)/# \1/' "$TEMP_CONFIG_DIR/sway/config.d/swayfx" | sed 's/^\(blur.*enable\)/# \1/' > "$TEMP_CONFIG_DIR/sway/config.d/swayfx.tmp" && mv "$TEMP_CONFIG_DIR/sway/config.d/swayfx.tmp" "$TEMP_CONFIG_DIR/sway/config.d/swayfx"
+    fi
+    
+    # Modify input config based on keyboard layout preference
+    if [ "$CUSTOMIZE_KEYBOARD" = true ]; then
+        echo "Updating keyboard layouts in sway config..."
+        # Build the xkb_layout line with all selected layouts
+        LAYOUTS_STR=$(IFS=,; echo "${KEYBOARD_LAYOUTS[*]}")
+        
+        # Update the xkb_layout in input config
+        sed "s/xkb_layout \"fr\"/xkb_layout \"$LAYOUTS_STR\"/g; s/xkb_options \"grp:alt_shift_toggle,caps:escape\"/xkb_options \"grp:alt_shift_toggle,caps:escape\"/g" \
+            "$TEMP_CONFIG_DIR/sway/config.d/input" > "$TEMP_CONFIG_DIR/sway/config.d/input.tmp" && mv "$TEMP_CONFIG_DIR/sway/config.d/input.tmp" "$TEMP_CONFIG_DIR/sway/config.d/input"
+    fi
+    
+    # Copy modified configs to home directory
+    echo "Deploying dotfiles to ~/.config/..."
+    mkdir -p "$HOME/.config"
+    
+    # Use rsync to copy configs, excluding install script and README
+    rsync -avh --exclude 'install.sh' --exclude 'README.md' --exclude '.git' "$TEMP_CONFIG_DIR/" "$HOME/.config/"
+    
+    # Clean up temp directory
+    rm -rf "$TEMP_CONFIG_DIR"
+    
+    # Special handling for nushell config
     if [ -d "$HOME/.config/nushell" ]; then
         mv "$HOME/.config/nushell" "$HOME/.config/nushell_backup_$(date +%Y%m%d_%H%M%S)" || true
     fi
     cp -r "$SCRIPT_DIR/nushell" "$HOME/.config/"
-
-    # Restore some configs to home directory if they were copied from there
-    # E.g., if .gtkrc-2.0 or .bashrc was intended to be in ~
-    # For now, assuming all go into ~/.config/<app_name>
-    echo "Dotfiles deployment complete. You may need to manually move some files if they belong directly in ~/"
-    echo "For example, some shell configs like .bashrc, .zshrc etc., should be in your home directory, not ~/.config"
+    
+    echo "Configuration files deployed successfully!"
 }
 
 # --- Main execution ---
 echo "This script will help you set up your Sway/Nushell dotfiles."
-echo "Dependencies will be installed and configuration files will be deployed."
+echo "It will detect your distribution and install appropriate packages."
+
+# Detect distribution and set package manager
+detect_distro
+
+# Ask user for preferences
+ask_user_preferences
 
 read -p "Do you want to install dependencies? (y/N): " install_choice
 if [[ "$install_choice" =~ ^[Yy]$ ]]; then
@@ -163,7 +220,7 @@ fi
 
 read -p "Do you want to deploy dotfiles? (y/N): " deploy_choice
 if [[ "$deploy_choice" =~ ^[Yy]$ ]]; then
-    deploy_dotfiles
+    prepare_configs
 fi
 
 echo "Setup script finished. Please reboot or log out for changes to take effect."
