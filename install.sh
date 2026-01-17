@@ -52,11 +52,11 @@ get_arch_packages() {
 }
 
 get_debian_packages() {
-    echo "alacritty avizo bat blueman btop brightnessctl curl dunst eza fastfetch ffmpeg flatpak foot gedit glow grim grimshot hwinfo imagemagick jq libinput-tools libnotify lxappearance mako network-manager network-manager-gnome netcat neovim pavucontrol pcmanfm playerctl procps python3 qt5ct ranger reflector ripgrep rofi slurp swayidle swaylock swww tracker-extract translate-shell vim-gtk3 waybar wget wlogout wofi xsettingsd xdg-user-dirs xdg-utils xsane yad"
+    echo "alacritty wl-clipboard bat blueman btop brightnessctl curl dunst eza fastfetch ffmpeg flatpak foot gedit glow grim swayshot hwinfo imagemagick jq libinput-tools libnotify-bin lxappearance mako network-manager network-manager-gnome netcat-openbsd neovim pcmanfm playerctl procps python3 qt5ct ranger reflector ripgrep rofi slurp swayidle swaylock-effects swww tracker translate-shell vim-gtk3 waybar wget wlogout wofi xsettingsd xdg-user-dirs xdg-utils xsane-gtk yad"
 }
 
 get_fedora_packages() {
-    echo "alacritty avizo bat blueman btop brightnessctl curl dunst eza fastfetch ffmpeg flatpak foot gedit glow grim grimshot hwinfo ImageMagick jq libinput libnotify lxappearance mako NetworkManager NetworkManager-tui netcat neovim pavucontrol pcmanfm playerctl procps-ng python3 qt5ct ranger ripgrep rofi slurp swayidle swaylock swww tracker translate-shell vim-enhanced waybar wget wlogout wofi xsettingsd xdg-user-dirs xdg-utils xsane yad"
+    echo "alacritty wl-clipboard bat blueman btop brightnessctl curl dunst eza fastfetch ffmpeg flatpak foot gedit glow grim swayshot hwinfo ImageMagick jq libinput libnotify lxappearance mako NetworkManager NetworkManager-tui nmap-ncat neovim pavucontrol pcmanfm playerctl procps-ng python3 qt5ct ranger ripgrep rofi slurp swayidle swaylock swww tracker translate-shell vim-enhanced waybar wget wlogout wofi xsettingsd xdg-user-dirs xdg-utils xsane yad"
 }
 
 get_font_packages() {
@@ -194,7 +194,14 @@ prepare_configs() {
     if [ -d "$HOME/.config/nushell" ]; then
         mv "$HOME/.config/nushell" "$HOME/.config/nushell_backup_$(date +%Y%m%d_%H%M%S)" || true
     fi
-    cp -r "$SCRIPT_DIR/nushell" "$HOME/.config/"
+    
+    # Use distribution-specific nushell config if available
+    if [ -f "$SCRIPT_DIR/distro-configs/$DISTRO/nushell/config.nu" ]; then
+        mkdir -p "$HOME/.config/nushell"
+        cp "$SCRIPT_DIR/distro-configs/$DISTRO/nushell/config.nu" "$HOME/.config/nushell/config.nu"
+    else
+        cp -r "$SCRIPT_DIR/nushell" "$HOME/.config/"
+    fi
     
     echo "Configuration files deployed successfully!"
 }
